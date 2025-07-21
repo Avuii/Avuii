@@ -35,7 +35,7 @@ An **internship** opportunity where I can grow in both **design** and **developm
 
 ## 🤝 Let's Connect!
 - 📫 Email: k.stanczyk4364@gmail.com
-- 💼 [LinkedIn: Katarzyna Stańczyk](https://www.linkedin.com/in/katarzyna-stanczykk/)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/katarzyna-stanczykk/)  
 
 ---
 
