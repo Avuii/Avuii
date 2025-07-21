@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Kasia Stanczyk
 
 🎨**Graphic** & 💻**Aspiring Software Developer**  
-📍 Poland | 🎓 CS student @ University of Łódź  
+📍 Poland | 🎓 CS student University of Łódź  
 🌱 I enjoy building things that not only **work well**, but also **look good**.
  
 ---
