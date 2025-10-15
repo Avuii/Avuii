@@ -8,7 +8,7 @@
 
 ## 💡 About Me
 I combine **creativity with technology**
-— studying ** Applied Computer Science** (specializing in *Programming and Algorithms*) while exploring both **visual design** and **software development**.
+— studying **Applied Computer Science** (specializing in *Programming and Algorithms*) while exploring both **visual design** and **software development**.
 - 🖌️ I design promotional graphics & user interfaces  
 - 📱 I run social media for my faculty 
 - 💻 I code in **C++**, **Python**, and explore **frontend** technologies  
