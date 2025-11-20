@@ -77,7 +77,7 @@
   </svg>
 </p>
   
-</svg>
+
 <h1 align="center">
   <span style="font-size: 2.4rem; color: #ffb7d5;">🌸 Hi, I'm <strong>Kasia Stańczyk</strong> 🌙</span>
 </h1>
@@ -106,7 +106,7 @@ An **internship** opportunity where I can grow in both **design** and **developm
 
 ---
 
-## 🛠️ Tech & Tools 
+### 🛠️ Tech & Tools 
 <p align="center">
   <img alt="C++" src="https://img.shields.io/badge/C++-ffb7d5?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
   <img alt="Python" src="https://img.shields.io/badge/Python-bde0fe?style=for-the-badge&logo=python&logoColor=white"/>
@@ -116,7 +116,7 @@ An **internship** opportunity where I can grow in both **design** and **developm
   <img alt="SQL" src="https://img.shields.io/badge/SQL-ffb5e8?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
-## 🎨 Design
+### 🎨 Design
 <p align="center">
 <img alt="Figma" src="https://img.shields.io/badge/Figma-ffb7d5?style=for-the-badge&logo=figma&logoColor=white"/>
 <img alt="Canva" src="https://img.shields.io/badge/Canva-bde0fe?style=for-the-badge&logo=canva&logoColor=white"/>
@@ -126,7 +126,7 @@ An **internship** opportunity where I can grow in both **design** and **developm
 <img alt="3ds Max" src="https://img.shields.io/badge/3ds_Max-bde0fe?style=for-the-badge&logo=autodesk&logoColor=white"/>
 </p>
 
-## 🖥️ IDE
+### 🖥️ IDE
 <p align="center">
 <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-ffb5e8?style=for-the-badge&logo=visual-studio&logoColor=white"/>
 <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-aec6ff?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
@@ -135,7 +135,7 @@ An **internship** opportunity where I can grow in both **design** and **developm
 <img alt="Rider" src="https://img.shields.io/badge/Rider-ffb5e8?style=for-the-badge&logo=jetbrains&logoColor=white"/>
 </p>
 
-## 🧰 Other Tools
+### 🧰 Other Tools
 <p align="center">
 <img alt="GitHub" src="https://img.shields.io/badge/GitHub-f2d7ee?style=for-the-badge&logo=github&logoColor=black"/>
 <img alt="Godot" src="https://img.shields.io/badge/Godot-bde0fe?style=for-the-badge&logo=godot-engine&logoColor=white"/>
