@@ -4,17 +4,70 @@
 </p>
 
 <p align="center">
-<svg width="180" height="120" viewBox="0 0 180 120" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <circle cx="60" cy="60" r="28" fill="#fff7ff" />
-    <circle cx="72" cy="50" r="28" fill="#ffebf5" opacity="0.8"/>
-    <animateTransform 
-      attributeName="transform"
-      type="rotate"
-      dur="4s"
-      values="0 60 60; 4 60 60; 0 60 60"
+<svg width="220" height="80" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- gwiazdka 1 -->
+  <circle cx="40" cy="40" r="3" fill="#fff3f8">
+    <animate 
+      attributeName="r"
+      values="3;1.2;3"
+      dur="1.6s"
       repeatCount="indefinite"/>
-  </g>
+    <animate 
+      attributeName="opacity"
+      values="1;0.3;1"
+      dur="1.6s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- gwiazdka 2 -->
+  <circle cx="90" cy="25" r="2.2" fill="#e8fbff">
+    <animate 
+      attributeName="r"
+      values="2.2;0.8;2.2"
+      dur="1.8s"
+      begin="0.4s"
+      repeatCount="indefinite"/>
+    <animate 
+      attributeName="opacity"
+      values="1;0.2;1"
+      dur="1.8s"
+      begin="0.4s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- gwiazdka 3 -->
+  <circle cx="140" cy="50" r="2.6" fill="#fff0f6">
+    <animate 
+      attributeName="r"
+      values="2.6;1;2.6"
+      dur="2s"
+      begin="0.9s"
+      repeatCount="indefinite"/>
+    <animate 
+      attributeName="opacity"
+      values="1;0.3;1"
+      dur="2s"
+      begin="0.9s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- gwiazdka 4 -->
+  <circle cx="185" cy="30" r="1.8" fill="#f0f7ff">
+    <animate 
+      attributeName="r"
+      values="1.8;0.6;1.8"
+      dur="1.4s"
+      begin="0.2s"
+      repeatCount="indefinite"/>
+    <animate 
+      attributeName="opacity"
+      values="1;0.25;1"
+      dur="1.4s"
+      begin="0.2s"
+      repeatCount="indefinite"/>
+  </circle>
+
 </svg>
 </p>
 
