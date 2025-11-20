@@ -1,4 +1,4 @@
-<!-- Banner (umieść plik baner.png w repo, alt dla dostępności) -->
+
 <p align="center">
   <img src="baner.png" alt="Kasia Stańczyk banner" width="100%" />
 </p>
@@ -125,6 +125,7 @@ An **internship** opportunity where I can grow in both **design** and **developm
 <img alt="Three.js" src="https://img.shields.io/badge/Three.js-ffe5a5?style=for-the-badge&logo=three.js&logoColor=black"/>
 <img alt="3ds Max" src="https://img.shields.io/badge/3ds_Max-bde0fe?style=for-the-badge&logo=autodesk&logoColor=white"/>
 </p>
+
 ## 🖥️ IDE
 <p align="center">
 <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-ffb5e8?style=for-the-badge&logo=visual-studio&logoColor=white"/>
@@ -133,6 +134,7 @@ An **internship** opportunity where I can grow in both **design** and **developm
 <img alt="CLion" src="https://img.shields.io/badge/CLion-ffb7d5?style=for-the-badge&logo=clion&logoColor=white"/>
 <img alt="Rider" src="https://img.shields.io/badge/Rider-ffb5e8?style=for-the-badge&logo=jetbrains&logoColor=white"/>
 </p>
+
 ## 🧰 Other Tools
 <p align="center">
 <img alt="GitHub" src="https://img.shields.io/badge/GitHub-f2d7ee?style=for-the-badge&logo=github&logoColor=black"/>
