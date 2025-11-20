@@ -117,26 +117,29 @@ An **internship** opportunity where I can grow in both **design** and **developm
 </p>
 
 ## 🎨 Design
+<p align="center">
 <img alt="Figma" src="https://img.shields.io/badge/Figma-ffb7d5?style=for-the-badge&logo=figma&logoColor=white"/>
 <img alt="Canva" src="https://img.shields.io/badge/Canva-bde0fe?style=for-the-badge&logo=canva&logoColor=white"/>
 <img alt="AutoCAD" src="https://img.shields.io/badge/AutoCAD-ff9aa2?style=for-the-badge&logo=autodesk&logoColor=white"/>
 <img alt="Aseprite" src="https://img.shields.io/badge/Aseprite-aec6ff?style=for-the-badge&logo=aseprite&logoColor=white"/>
 <img alt="Three.js" src="https://img.shields.io/badge/Three.js-ffe5a5?style=for-the-badge&logo=three.js&logoColor=black"/>
 <img alt="3ds Max" src="https://img.shields.io/badge/3ds_Max-bde0fe?style=for-the-badge&logo=autodesk&logoColor=white"/>
-
+</p>
 ## 🖥️ IDE
+<p align="center">
 <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-ffb5e8?style=for-the-badge&logo=visual-studio&logoColor=white"/>
 <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-aec6ff?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-ff9aa2?style=for-the-badge&logo=pycharm&logoColor=white"/>
 <img alt="CLion" src="https://img.shields.io/badge/CLion-ffb7d5?style=for-the-badge&logo=clion&logoColor=white"/>
 <img alt="Rider" src="https://img.shields.io/badge/Rider-ffb5e8?style=for-the-badge&logo=jetbrains&logoColor=white"/>
-
+</p>
 ## 🧰 Other Tools
+<p align="center">
 <img alt="GitHub" src="https://img.shields.io/badge/GitHub-f2d7ee?style=for-the-badge&logo=github&logoColor=black"/>
 <img alt="Godot" src="https://img.shields.io/badge/Godot-bde0fe?style=for-the-badge&logo=godot-engine&logoColor=white"/>
 <img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-cdf5f6?style=for-the-badge&logo=latex&logoColor=008080"/>
 <img alt="FCL" src="https://img.shields.io/badge/FCL-aec6ff?style=for-the-badge&logo=gear&logoColor=white"/>
-
+</p>
 
 ---
 
