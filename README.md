@@ -1,3 +1,7 @@
+<!-- Banner -->
+<p align="center">
+  <img src="avuii/baner.png" width="100%" />
+</p>
 # 👋 Hi, I'm Kasia Stanczyk
 
 🎨**Graphic** & 💻**Aspiring Software Developer**  
