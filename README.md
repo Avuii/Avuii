@@ -4,79 +4,19 @@
 </p>
 
 <p align="center">
-  <svg width="680" height="140" viewBox="0 0 680 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
-    <title>Pastel header: moon and flowers</title>
-    <defs>
-      <linearGradient id="g1" x1="0" x2="1">
-        <stop offset="0" stop-color="#ffd6e8"/>
-        <stop offset="1" stop-color="#e6f7ff"/>
-      </linearGradient>
-      <filter id="f1" x="-50%" y="-50%" width="200%" height="200%">
-        <feGaussianBlur stdDeviation="6" result="b"/>
-        <feBlend in="SourceGraphic" in2="b"/>
-      </filter>
-      <style type="text/css"><![CDATA[
-        .title { font: 700 28px/1 "Segoe UI", system-ui, -apple-system; fill: #ffb7d5; }
-        .subtitle { font: 400 14px/1 "Segoe UI", system-ui; fill: #7a7a9d; }
-        /* konieczne dla transform-origin w SVG */
-        .animated { transform-box: fill-box; transform-origin: center; }
-        .moon { animation: floatMoon 6s ease-in-out infinite; }
-        .petal { animation: sway 4s ease-in-out infinite; }
-        .spark { animation: twinkle 2.4s linear infinite; opacity: 0.9; }
-        @keyframes floatMoon {
-          0% { transform: translateY(0) rotate(0deg); }
-          50% { transform: translateY(-6px) rotate(-3deg); }
-          100% { transform: translateY(0) rotate(0deg); }
-        }
-        @keyframes sway {
-          0% { transform: translateY(0) rotate(0deg); }
-          50% { transform: translateY(-4px) rotate(3deg); }
-          100% { transform: translateY(0) rotate(0deg); }
-        }
-        @keyframes twinkle {
-          0%,100% { opacity: 0.9; transform: scale(1); }
-          50% { opacity: 0.3; transform: scale(0.8); }
-        }
-      ]]></style>
-    </defs>
- <g class="moon animated" aria-hidden="true" transform-box="fill-box" transform-origin="120px 70px">
-   <circle cx="120" cy="70" r="36" fill="#fff7ff" />
-    <circle cx="135" cy="60" r="36" fill="#ffebf5" opacity="0.8"/>
-    <circle cx="110" cy="80" r="6" fill="#ffd6e8" opacity="0.6"/>
-<!-- SMIL fallback: translate + rotate -->
-  <animateTransform attributeName="transform" attributeType="XML"
-        type="translate" dur="6s" values="0 0; 0 -6; 0 0" repeatCount="indefinite"/>
-  <animateTransform attributeName="transform" attributeType="XML"
-     type="rotate" dur="6s" values="0; -3; 0" repeatCount="indefinite"/>
-    </g>
-<!-- Title -->
-    <text x="190" y="60" class="title">🌸 Kasia Stańczyk — Creative Dev</text>
-    <text x="190" y="86" class="subtitle">Graphic designer • Aspiring Software Developer • CS student @ Uni Łódź</text>
-    <!-- Right: pastel flower (CSS + SMIL fallback) -->
-    <g transform="translate(480,30)" class="petal animated" aria-hidden="true" transform-box="fill-box" transform-origin="520px 100px">
-      <ellipse cx="40" cy="70" rx="34" ry="18" fill="#ffd6e8" />
-      <ellipse cx="16" cy="46" rx="14" ry="28" fill="#ffe9f7" transform="rotate(-30 16 46)"/>
-      <ellipse cx="64" cy="46" rx="14" ry="28" fill="#fff0f6" transform="rotate(30 64 46)"/>
-      <circle cx="40" cy="58" r="10" fill="#ffb7d5" />
-      <!-- SMIL fallback -->
-      <animateTransform attributeName="transform" attributeType="XML"
-        type="translate" dur="4s" values="0 0; 0 -4; 0 0" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" attributeType="XML"
-        type="rotate" dur="4s" values="0; 3; 0" repeatCount="indefinite"/>
-    </g>
-    <!-- little sparkles (CSS + SMIL opacity fallback, z drobnym opóźnieniem) -->
-    <circle class="spark animated" cx="320" cy="20" r="2.6" fill="#fff3f8" transform-box="fill-box" transform-origin="320px 20px">
-      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.4s" repeatCount="indefinite" begin="0s" />
-    </circle>
-    <circle class="spark animated" cx="360" cy="40" r="1.8" fill="#e8fbff" transform-box="fill-box" transform-origin="360px 40px">
-      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.4s" repeatCount="indefinite" begin="0.45s" />
-    </circle>
-    <circle class="spark animated" cx="420" cy="22" r="2.2" fill="#fff0f6" transform-box="fill-box" transform-origin="420px 22px">
-      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.4s" repeatCount="indefinite" begin="1s" />
-    </circle>
-  </svg>
+<svg width="180" height="120" viewBox="0 0 180 120" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <circle cx="60" cy="60" r="28" fill="#fff7ff" />
+    <circle cx="72" cy="50" r="28" fill="#ffebf5" opacity="0.8"/>
+    <animateTransform 
+      attributeName="transform"
+      type="rotate"
+      dur="4s"
+      values="0 60 60; 4 60 60; 0 60 60"
+      repeatCount="indefinite"/>
+  </g>
+</svg>
 </p>
-  
 
 <h1 align="center">
   <span style="font-size: 2.4rem; color: #ffb7d5;">🌸 Hi, I'm <strong>Kasia Stańczyk</strong> 🌙</span>
