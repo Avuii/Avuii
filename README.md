@@ -2,12 +2,15 @@
 <p align="center">
   <img src="baner.png" width="100%" />
 </p>
-# 👋 Hi, I'm Kasia Stanczyk
+<h1 align="center">
+  <span style="font-size: 2.4rem; color: #ffb7d5;">🌸 Hi, I'm <strong>Kasia Stańczyk</strong> 🌙</span>
+</h1>
 
-🎨**Graphic** & 💻**Aspiring Software Developer**  
-📍 Poland | 🎓 CS student University of Łódź  
-🌱 I enjoy building things that not only **work well**, but also **look good**.
- 
+<p align="center" style="font-size: 1.1rem; color:#ffdfee;">
+  🎨 <strong>Graphic</strong> & 💻 <strong>Aspiring Software Developer</strong><br>
+  📍 Poland | 🎓 CS student — University of Łódź <br>
+  🌱 I love creating things that not only <strong>work</strong>, but also <strong>look magical</strong>.
+</p>
 ---
 
 ## 💡 About Me
@@ -40,11 +43,25 @@ An **internship** opportunity where I can grow in both **design** and **developm
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)  ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat&logo=godot-engine&logoColor=white)  ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)  ![FCL](https://img.shields.io/badge/FCL-0066CC?style=flat&logo=gear&logoColor=white)
 
 ---
+## 📊 GitHub Stats
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=avuii&show_icons=true&theme=rose_pine"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=avuii&layout=compact&theme=rose_pine"/>
+</p>
+---
 
 ## 🤝 Let's Connect!
-- 📫 Email: k.stanczyk4364@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/katarzyna-stanczykk/)
-- 🌐 [Website](https://avuii.github.io/portfolio/)
+<p align="center">
+  <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:k.stanczyk4364@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://avuii.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-FF69B4?style=for-the-badge&logo=star&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
