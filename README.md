@@ -44,6 +44,7 @@ An **internship** opportunity where I can grow in both **design** and **developm
 
 
 
+
 **Design:**  
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat&logo=canva&logoColor=white) ![AutoCAD](https://img.shields.io/badge/AutoCAD-E60000?style=flat&logo=autodesk&logoColor=white)  ![Aseprite](https://img.shields.io/badge/Aseprite-7D929E?style=flat&logo=aseprite&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=three.js&logoColor=white) ![3ds Max](https://img.shields.io/badge/3ds_Max-00A0E3?style=flat&logo=autodesk&logoColor=white)
 
