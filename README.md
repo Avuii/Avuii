@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="Avuii/baner.png" width="100%" />
+  <img src="baner.png" width="100%" />
 </p>
 # 👋 Hi, I'm Kasia Stanczyk
 
