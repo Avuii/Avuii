@@ -1,73 +1,35 @@
-
-
+<p align="center">
+  <img src="baner.png" alt="Kasia Stańczyk banner" width="100%" />
+</p>
 
 <p align="center">
-<svg width="220" height="80" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- gwiazdka 1 -->
-  <circle cx="40" cy="40" r="3" fill="#fff3f8">
-    <animate 
-      attributeName="r"
-      values="3;1.2;3"
-      dur="1.6s"
-      repeatCount="indefinite"/>
-    <animate 
-      attributeName="opacity"
-      values="1;0.3;1"
-      dur="1.6s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <!-- gwiazdka 2 -->
-  <circle cx="90" cy="25" r="2.2" fill="#e8fbff">
-    <animate 
-      attributeName="r"
-      values="2.2;0.8;2.2"
-      dur="1.8s"
-      begin="0.4s"
-      repeatCount="indefinite"/>
-    <animate 
-      attributeName="opacity"
-      values="1;0.2;1"
-      dur="1.8s"
-      begin="0.4s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <!-- gwiazdka 3 -->
-  <circle cx="140" cy="50" r="2.6" fill="#fff0f6">
-    <animate 
-      attributeName="r"
-      values="2.6;1;2.6"
-      dur="2s"
-      begin="0.9s"
-      repeatCount="indefinite"/>
-    <animate 
-      attributeName="opacity"
-      values="1;0.3;1"
-      dur="2s"
-      begin="0.9s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <!-- gwiazdka 4 -->
-  <circle cx="185" cy="30" r="1.8" fill="#f0f7ff">
-    <animate 
-      attributeName="r"
-      values="1.8;0.6;1.8"
-      dur="1.4s"
-      begin="0.2s"
-      repeatCount="indefinite"/>
-    <animate 
-      attributeName="opacity"
-      values="1;0.25;1"
-      dur="1.4s"
-      begin="0.2s"
-      repeatCount="indefinite"/>
-  </circle>
-
-</svg>
+  <span class="star" style="--x:40px; --y:40px; --size:6px; --delay:0s;"></span>
+  <span class="star" style="--x:90px; --y:25px; --size:4.4px; --delay:0.4s;"></span>
+  <span class="star" style="--x:140px; --y:50px; --size:5.2px; --delay:0.9s;"></span>
+  <span class="star" style="--x:185px; --y:30px; --size:3.6px; --delay:0.2s;"></span>
 </p>
+
+<style>
+.star {
+  display: inline-block;
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  width: var(--size);
+  height: var(--size);
+  background: white;
+  border-radius: 50%;
+  opacity: 1;
+  animation: twinkle 1.6s infinite alternate;
+  animation-delay: var(--delay);
+}
+
+@keyframes twinkle {
+  0%   { transform: scale(1); opacity: 1; }
+  50%  { transform: scale(0.4); opacity: 0.3; }
+  100% { transform: scale(1); opacity: 1; }
+}
+</style>
 
 <h1 align="center">
   <span style="font-size: 2.4rem; color: #ffb7d5;">🌸 Hi, I'm <strong>Kasia Stańczyk</strong> 🌙</span>
