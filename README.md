@@ -1,7 +1,5 @@
 
-<p align="center">
-  <img src="baner.png" alt="Kasia Stańczyk banner" width="100%" />
-</p>
+
 
 <p align="center">
 <svg width="220" height="80" xmlns="http://www.w3.org/2000/svg">
