@@ -81,7 +81,6 @@ Other Tools
 <p align="center">
   <img alt="GitHub Stats" height="140" src="https://github-readme-stats.vercel.app/api?username=avuii&show_icons=true&theme=rose_pine&hide_border=true"/>
   <img alt="Top Languages" height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=avuii&layout=compact&theme=rose_pine&hide_border=true"/>
-  <img alt="GitHub Streak" height="140" src="https://github-readme-streak-stats.herokuapp.com/?user=avuii&theme=rose_pine&hide_border=true"/>
 </p>
 <br><br>
 
