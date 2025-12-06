@@ -79,10 +79,13 @@ Other Tools
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">Stats</h2> 
 <p align="center">
-  <img alt="GitHub Stats" height="140" src="https://github-readme-stats.vercel.app/api?username=avuii&show_icons=true&theme=rose_pine&hide_border=true"/>
-  <img alt="Top Languages" height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=avuii&layout=compact&theme=rose_pine&hide_border=true"/>
+  
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=avuii&show_icons=true&theme=rose_pine&hide_border=true)  ![GitHub Streak](https://streak-stats.demolab.com/?user=avuii&theme=rose_pine&hide_border=true)
+
+
+
 </p>
-<br><br>
+<br><br><br>
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">Let's Connect!</h2>
 <p align="center">
