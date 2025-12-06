@@ -80,10 +80,11 @@ Other Tools
 <h2 align="center" style="font-size:28px; font-weight:bold;">Stats</h2> 
 <p align="center">
   
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=avuii&show_icons=true&theme=rose_pine&hide_border=true)  ![GitHub Streak](https://streak-stats.demolab.com/?user=avuii&theme=rose_pine&hide_border=true)
-
-
-
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=avuii&show_icons=true&theme=rose_pine&hide_border=true) 
+</p>
+<p align="center">
+  
+![GitHub Streak](https://streak-stats.demolab.com/?user=avuii&theme=rose_pine&hide_border=true)
 </p>
 <br><br><br>
 
