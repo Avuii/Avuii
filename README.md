@@ -32,49 +32,71 @@ An **internship** opportunity where I can:
 - Learn from inspiring teams
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2>
+<p align="center">Tech stack & tools I use in projects and day-to-day development</p>
+
+<!-- Core -->
+<h3 align="center">Core</h3>
 <p align="center">
-Tech & Tools 
+  <img alt="C#" src="https://img.shields.io/badge/C%23-ffb7d5?style=for-the-badge&logo=csharp&logoColor=white"/>
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-bde0fe?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img alt="Python" src="https://img.shields.io/badge/Python-ffe5a5?style=for-the-badge&logo=python&logoColor=black"/>
+  <img alt="C++" src="https://img.shields.io/badge/C++-aec6ff?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
 </p>
+
+<!-- Backend / Web -->
+<h3 align="center">Backend & Web</h3>
 <p align="center">
-  <img alt="C++" src="https://img.shields.io/badge/C++-ffb7d5?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-  <img alt="Python" src="https://img.shields.io/badge/Python-bde0fe?style=for-the-badge&logo=python&logoColor=white"/>
+  <img alt="ASP.NET Core" src="https://img.shields.io/badge/ASP.NET_Core-ff9aa2?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img alt="Blazor" src="https://img.shields.io/badge/Blazor-aec6ff?style=for-the-badge&logo=blazor&logoColor=white"/>
+  <img alt="Entity Framework Core" src="https://img.shields.io/badge/EF_Core-ffb5e8?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img alt="REST API" src="https://img.shields.io/badge/REST_API-bde0fe?style=for-the-badge&logo=fastapi&logoColor=white"/>
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ffe5a5?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-ff9aa2?style=for-the-badge&logo=html5&logoColor=white"/>
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-aec6ff?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img alt="SQL" src="https://img.shields.io/badge/SQL-ffb5e8?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
-<p align="center">
-Design
-</p>
-<p align="center">
-<img alt="Figma" src="https://img.shields.io/badge/Figma-ffb7d5?style=for-the-badge&logo=figma&logoColor=white"/>
-<img alt="Canva" src="https://img.shields.io/badge/Canva-bde0fe?style=for-the-badge&logo=canva&logoColor=white"/>
-<img alt="AutoCAD" src="https://img.shields.io/badge/AutoCAD-ff9aa2?style=for-the-badge&logo=autodesk&logoColor=white"/>
-<img alt="Aseprite" src="https://img.shields.io/badge/Aseprite-aec6ff?style=for-the-badge&logo=aseprite&logoColor=white"/>
-<img alt="Three.js" src="https://img.shields.io/badge/Three.js-ffe5a5?style=for-the-badge&logo=three.js&logoColor=black"/>
-<img alt="3ds Max" src="https://img.shields.io/badge/3ds_Max-bde0fe?style=for-the-badge&logo=autodesk&logoColor=white"/>
 </p>
 
+<!-- Data -->
+<h3 align="center">Data</h3>
 <p align="center">
-IDE
-</p>
-<p align="center">
-<img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-ffb5e8?style=for-the-badge&logo=visual-studio&logoColor=white"/>
-<img alt="VS Code" src="https://img.shields.io/badge/VS_Code-aec6ff?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-<img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-ff9aa2?style=for-the-badge&logo=pycharm&logoColor=white"/>
-<img alt="CLion" src="https://img.shields.io/badge/CLion-ffb7d5?style=for-the-badge&logo=clion&logoColor=white"/>
-<img alt="Rider" src="https://img.shields.io/badge/Rider-ffb5e8?style=for-the-badge&logo=jetbrains&logoColor=white"/>
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-ffb5e8?style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-bde0fe?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-aec6ff?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-ffb7d5?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-cdf5f6?style=for-the-badge&logoColor=008080"/>
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ff9aa2?style=for-the-badge&logo=pytorch&logoColor=white"/>
 </p>
 
+<!-- Dev Tools -->
+<h3 align="center">Dev Tools</h3>
 <p align="center">
-Other Tools
+  <img alt="Git" src="https://img.shields.io/badge/Git-ffe5a5?style=for-the-badge&logo=git&logoColor=black"/>
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-f2d7ee?style=for-the-badge&logo=github&logoColor=black"/>
+  <img alt="Bitbucket" src="https://img.shields.io/badge/Bitbucket-bde0fe?style=for-the-badge&logo=bitbucket&logoColor=white"/>
+  <img alt="Jira" src="https://img.shields.io/badge/Jira-aec6ff?style=for-the-badge&logo=jira&logoColor=white"/>
+  <img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-cdf5f6?style=for-the-badge&logo=latex&logoColor=008080"/>
 </p>
+
+<!-- IDE -->
+<h3 align="center">IDE</h3>
 <p align="center">
-<img alt="GitHub" src="https://img.shields.io/badge/GitHub-f2d7ee?style=for-the-badge&logo=github&logoColor=black"/>
-<img alt="Godot" src="https://img.shields.io/badge/Godot-bde0fe?style=for-the-badge&logo=godot-engine&logoColor=white"/>
-<img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-cdf5f6?style=for-the-badge&logo=latex&logoColor=008080"/>
-<img alt="FCL" src="https://img.shields.io/badge/FCL-aec6ff?style=for-the-badge&logo=gear&logoColor=white"/>
+  <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-ffb5e8?style=for-the-badge&logo=visualstudio&logoColor=white"/>
+  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-aec6ff?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+  <img alt="Rider" src="https://img.shields.io/badge/Rider-ff9aa2?style=for-the-badge&logo=rider&logoColor=white"/>
+  <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-bde0fe?style=for-the-badge&logo=pycharm&logoColor=white"/>
+  <img alt="CLion" src="https://img.shields.io/badge/CLion-ffe5a5?style=for-the-badge&logo=clion&logoColor=black"/>
 </p>
+
+<!-- Extra (optional) -->
+<h3 align="center">Creative / 3D </h3>
+<p align="center">
+  <img alt="Figma" src="https://img.shields.io/badge/Figma-ffb7d5?style=for-the-badge&logo=figma&logoColor=white"/>
+  <img alt="Canva" src="https://img.shields.io/badge/Canva-bde0fe?style=for-the-badge&logo=canva&logoColor=white"/>
+  <img alt="Three.js" src="https://img.shields.io/badge/Three.js-ffe5a5?style=for-the-badge&logo=three.js&logoColor=black"/>
+  <img alt="AutoCAD" src="https://img.shields.io/badge/AutoCAD-ff9aa2?style=for-the-badge&logo=autodesk&logoColor=white"/>
+  <img alt="3ds Max" src="https://img.shields.io/badge/3ds_Max-aec6ff?style=for-the-badge&logo=autodesk&logoColor=white"/>
+  <img alt="Aseprite" src="https://img.shields.io/badge/Aseprite-ffb5e8?style=for-the-badge&logo=aseprite&logoColor=white"/>
+</p>
+
 <br><br>
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">Stats</h2> 
