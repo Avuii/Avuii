@@ -3,7 +3,7 @@
 </p>
 <br>
 
-  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1000&color=eda1c7&width=500&lines=Hi+there!;I'm+Kasia+Stańczyk...;I+love+design+and+code...;Welcome+to+my+profile!)
+  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1500&color=eda1c7&width=500&lines=Grab+a+coffee+and+take+a+look+around+%E2%98%95;Nice+to+see+you+here!;Welcome+to+my+profile!)
 
 <p align="center" style="font-size: 1.1rem; color:#ffdfee;">
   <strong>Graphic</strong> & <strong>Aspiring Software Developer</strong><br>
