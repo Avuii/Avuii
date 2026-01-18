@@ -15,7 +15,7 @@
   <img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-eda8cb?style=for-the-badge&logo=LinkedIn&logoColor=white&v=3"/>
 </a>
 
-  <a href="mailto:k.stanczyk4364@gmail.com">
+  <a href="mailto:kstanczyk.contactme@gmail.com">
     <img alt="Email" src="https://img.shields.io/badge/EMAIL-a8b2ed?style=for-the-badge&logo=maildotru&logoColor=white"/>
   </a>
 
