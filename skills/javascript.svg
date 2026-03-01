@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131" height="34" viewBox="0 0 131 34" role="img" aria-label="JavaScript">
+  <rect x="0.5" y="0.5" width="130" height="33" rx="12" fill="#0f1520" stroke="#f97316" stroke-opacity="0.28"/>
+  <rect x="6" y="6" width="22" height="22" rx="7" fill="#f97316" fill-opacity="0.16" stroke="#f97316" stroke-opacity="0.55"/>
+  <text x="17.0" y="20.3" text-anchor="middle" fill="#f97316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.2">JS</text>
+  <text x="38" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">JavaScript</text>
+</svg>

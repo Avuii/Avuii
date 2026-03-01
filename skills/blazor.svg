@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="34" viewBox="0 0 105 34" role="img" aria-label="Blazor">
+  <rect x="0.5" y="0.5" width="104" height="33" rx="12" fill="#0f1520" stroke="#bc8cff" stroke-opacity="0.28"/>
+  <rect x="6" y="6" width="24" height="22" rx="7" fill="#bc8cff" fill-opacity="0.16" stroke="#bc8cff" stroke-opacity="0.55"/>
+  <text x="18.0" y="20.3" text-anchor="middle" fill="#bc8cff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.2">Bz</text>
+  <text x="40" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Blazor</text>
+</svg>

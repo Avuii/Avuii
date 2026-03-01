@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="34" viewBox="0 0 81 34" role="img" aria-label="Jira">
+  <rect x="0.5" y="0.5" width="80" height="33" rx="12" fill="#0f1520" stroke="#7c86ff" stroke-opacity="0.28"/>
+  <rect x="6" y="6" width="22" height="22" rx="7" fill="#7c86ff" fill-opacity="0.16" stroke="#7c86ff" stroke-opacity="0.55"/>
+  <text x="17.0" y="20.3" text-anchor="middle" fill="#7c86ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.2">Jr</text>
+  <text x="38" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Jira</text>
+</svg>
