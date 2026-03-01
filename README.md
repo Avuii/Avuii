@@ -39,8 +39,6 @@ I combine **creativity with technology** — studying **Applied Computer Science
 <br>
 <h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2>
 
-<h2 align="center">My Skills</h2>
-
 <h3 align="center">Core</h3>
 <p align="center">
   <img alt="C#" src="/skills/csharp.svg" height="34" />
