@@ -12,16 +12,16 @@
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
-    <img alt="LinkedIn" src="/badges/linkedin-lucide.svg" height="44" />
+    <img alt="LinkedIn" src="/rounded-badges/linkedin-compact.svg" height="30" />
   </a>
   <a href="mailto:kstanczyk.contactme@gmail.com">
-    <img alt="Email" src="/badges/email-lucide.svg" height="44" />
+    <img alt="Email" src="/rounded-badges/email-compact.svg" height="30" />
   </a>
   <a href="https://avuii.github.io/PortfolioKS/">
-    <img alt="Website" src="/badges/website-lucide.svg" height="44" />
+    <img alt="Website" src="/rounded-badges/website-compact.svg" height="30" />
   </a>
   <a href="https://discord.com/users/691598855988314152">
-    <img alt="Discord" src="/badges/discord-lucide.svg" height="44" />
+    <img alt="Discord" src="/rounded-badges/discord-compact.svg" height="30" />
   </a>
   <br><br>
   Coffee-powered ☕
