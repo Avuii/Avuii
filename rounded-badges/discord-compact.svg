@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196" height="52" viewBox="0 0 196 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="194" height="50" rx="26" fill="#E7E5DF" stroke="#D7D4CD" stroke-width="1.2"/>
+  <circle cx="29" cy="26" r="14" fill="#bc8cff" fill-opacity="0.13"/>
+  <path d="M20 21.5c0-2.5 2-4.5 4.5-4.5h9c2.5 0 4.5 2 4.5 4.5v7c0 2.5-2 4.5-4.5 4.5h-5l-4.5 4v-4h-.5c-2.5 0-4.5-2-4.5-4.5v-7z" stroke="#bc8cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="55" y="31.5" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="0.3">DISCORD</text>
+</svg>

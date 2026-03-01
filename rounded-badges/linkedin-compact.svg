@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="215" height="52" viewBox="0 0 215 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="213" height="50" rx="26" fill="#E7E5DF" stroke="#D7D4CD" stroke-width="1.2"/>
+  <circle cx="29" cy="26" r="14" fill="#39c5cf" fill-opacity="0.13"/>
+  <rect x="19" y="21" width="20" height="12" rx="2.5" stroke="#39c5cf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25 21v-3c0-1.4 1.1-2.5 2.5-2.5h3c1.4 0 2.5 1.1 2.5 2.5v3" stroke="#39c5cf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 27h20" stroke="#39c5cf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="55" y="31.5" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="0.3">LINKEDIN</text>
+</svg>
