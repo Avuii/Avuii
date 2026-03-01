@@ -39,84 +39,79 @@ I combine **creativity with technology** — studying **Applied Computer Science
 <br>
 <h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2>
 
-<!-- Core -->
+<h2 align="center">My Skills</h2>
+
 <h3 align="center">Core</h3>
 <p align="center">
- <img alt="C#" src="https://img.shields.io/badge/C%23-ffb7d5?style=for-the-badge&logo=sharp&logoColor=white"/>
-  <img alt=".NET" src="https://img.shields.io/badge/.NET-bde0fe?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img alt="Python" src="https://img.shields.io/badge/Python-ffe5a5?style=for-the-badge&logo=python&logoColor=white"/>
-  <img alt="C++" src="https://img.shields.io/badge/C++-aec6ff?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  <img alt="C#" src="/skills/csharp.svg" height="34" />
+  <img alt=".NET" src="/skills/dotnet.svg" height="34" />
+  <img alt="Python" src="/skills/python.svg" height="34" />
+  <img alt="C++" src="/skills/cpp.svg" height="34" />
 </p>
 
-<!-- Backend -->
 <h3 align="center">Backend</h3>
 <p align="center">
-  <img alt="ASP.NET Core" src="https://img.shields.io/badge/ASP.NET_Core-ff9aa2?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img alt="Entity Framework Core" src="https://img.shields.io/badge/EF_Core-ffb5e8?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img alt="REST API" src="https://img.shields.io/badge/REST_API-bde0fe?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img alt="Swagger" src="https://img.shields.io/badge/Swagger-ffb7d5?style=for-the-badge&logo=swagger&logoColor=white"/>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-bde0fe?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img alt="ASP.NET Core" src="/skills/aspnet-core.svg" height="34" />
+  <img alt="EF Core" src="/skills/ef-core.svg" height="34" />
+  <img alt="REST API" src="/skills/rest-api.svg" height="34" />
+  <img alt="Swagger" src="/skills/swagger.svg" height="34" />
+  <img alt="Node.js" src="/skills/nodejs.svg" height="34" />
 </p>
 
-<!-- Frontend -->
 <h3 align="center">Frontend</h3>
 <p align="center">
-  <img alt="Blazor" src="https://img.shields.io/badge/Blazor-aec6ff?style=for-the-badge&logo=blazor&logoColor=white"/>
-  <img alt="React" src="https://img.shields.io/badge/React-cdf5f6?style=for-the-badge&logo=react&logoColor=black"/>
-  <img alt="Angular" src="https://img.shields.io/badge/Angular-ff9aa2?style=for-the-badge&logo=angular&logoColor=white"/>
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-aec6ff?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-  <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-ffb5e8?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-bde0fe?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ffe5a5?style=for-the-badge&logo=javascript&logoColor=white"/>
-  <img alt="npm" src="https://img.shields.io/badge/npm-ffb7d5?style=for-the-badge&logo=npm&logoColor=white"/>
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-ff9aa2?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-aec6ff?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img alt="Blazor" src="/skills/blazor.svg" height="34" />
+  <img alt="React" src="/skills/react.svg" height="34" />
+  <img alt="Angular" src="/skills/angular.svg" height="34" />
+  <img alt="Tailwind CSS" src="/skills/tailwind-css.svg" height="34" />
+  <img alt="Bootstrap" src="/skills/bootstrap.svg" height="34" />
+  <img alt="JavaScript" src="/skills/javascript.svg" height="34" />
+  <img alt="npm" src="/skills/npm.svg" height="34" />
+  <img alt="HTML5" src="/skills/html5.svg" height="34" />
+  <img alt="CSS3" src="/skills/css3.svg" height="34" />
 </p>
 
-<!-- Data -->
 <h3 align="center">Data</h3>
 <p align="center">
-  <img alt="SQL" src="https://img.shields.io/badge/SQL-ffb5e8?style=for-the-badge&logo=sqlite&logoColor=white"/>
-  <img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-bde0fe?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-aec6ff?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-aec6ff?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-ffb7d5?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-cdf5f6?style=for-the-badge&logo=python&logoColor=white"/>
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ff9aa2?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img alt="SQL" src="/skills/sql.svg" height="34" />
+  <img alt="SQL Server" src="/skills/sql-server.svg" height="34" />
+  <img alt="PostgreSQL" src="/skills/postgresql.svg" height="34" />
+  <img alt="NumPy" src="/skills/numpy.svg" height="34" />
+  <img alt="Pandas" src="/skills/pandas.svg" height="34" />
+  <img alt="Matplotlib" src="/skills/matplotlib.svg" height="34" />
+  <img alt="PyTorch" src="/skills/pytorch.svg" height="34" />
 </p>
 
-<!-- Dev Tools -->
 <h3 align="center">Dev Tools</h3>
 <p align="center">
-  <img alt="Git" src="https://img.shields.io/badge/Git-ffe5a5?style=for-the-badge&logo=git&logoColor=black"/>
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-f2d7ee?style=for-the-badge&logo=github&logoColor=black"/>
-  <img alt="Bitbucket" src="https://img.shields.io/badge/Bitbucket-bde0fe?style=for-the-badge&logo=bitbucket&logoColor=white"/>
-  <img alt="Jira" src="https://img.shields.io/badge/Jira-aec6ff?style=for-the-badge&logo=jira&logoColor=white"/>
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-bde0fe?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-ffe5a5?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-cdf5f6?style=for-the-badge&logo=latex&logoColor=008080"/>
+  <img alt="Git" src="/skills/git.svg" height="34" />
+  <img alt="GitHub" src="/skills/github.svg" height="34" />
+  <img alt="Bitbucket" src="/skills/bitbucket.svg" height="34" />
+  <img alt="Jira" src="/skills/jira.svg" height="34" />
+  <img alt="Docker" src="/skills/docker.svg" height="34" />
+  <img alt="Linux" src="/skills/linux.svg" height="34" />
+  <img alt="LaTeX" src="/skills/latex.svg" height="34" />
 </p>
 
-<!-- IDE -->
 <h3 align="center">IDE</h3>
 <p align="center">
-  <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-ffb5e8?style=for-the-badge&logo=visualstudio&logoColor=white"/>
-  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-aec6ff?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img alt="Rider" src="https://img.shields.io/badge/Rider-ff9aa2?style=for-the-badge&logo=rider&logoColor=white"/>
-  <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-bde0fe?style=for-the-badge&logo=pycharm&logoColor=white"/>
-  <img alt="CLion" src="https://img.shields.io/badge/CLion-ffe5a5?style=for-the-badge&logo=clion&logoColor=black"/>
+  <img alt="Visual Studio" src="/skills/visual-studio.svg" height="34" />
+  <img alt="VS Code" src="/skills/vscode.svg" height="34" />
+  <img alt="Rider" src="/skills/rider.svg" height="34" />
+  <img alt="PyCharm" src="/skills/pycharm.svg" height="34" />
+  <img alt="CLion" src="/skills/clion.svg" height="34" />
 </p>
 
-<!-- Extra -->
 <h3 align="center">Creative / 3D</h3>
 <p align="center">
-  <img alt="Figma" src="https://img.shields.io/badge/Figma-ffb7d5?style=for-the-badge&logo=figma&logoColor=white"/>
-  <img alt="Canva" src="https://img.shields.io/badge/Canva-bde0fe?style=for-the-badge&logo=canva&logoColor=white&v=2"/>
-  <img alt="Three.js" src="https://img.shields.io/badge/Three.js-ffe5a5?style=for-the-badge&logo=three.js&logoColor=black"/>
-  <img alt="AutoCAD" src="https://img.shields.io/badge/AutoCAD-ff9aa2?style=for-the-badge&logo=autodesk&logoColor=white"/>
-  <img alt="3ds Max" src="https://img.shields.io/badge/3ds_Max-aec6ff?style=for-the-badge&logo=autodesk&logoColor=white"/>
-  <img alt="Aseprite" src="https://img.shields.io/badge/Aseprite-ffb5e8?style=for-the-badge&logo=aseprite&logoColor=white"/>
+  <img alt="Figma" src="/skills/figma.svg" height="34" />
+  <img alt="Canva" src="/skills/canva.svg" height="34" />
+  <img alt="Three.js" src="/skills/threejs.svg" height="34" />
+  <img alt="AutoCAD" src="/skills/autocad.svg" height="34" />
+  <img alt="3ds Max" src="/skills/dsmax.svg" height="34" />
+  <img alt="Aseprite" src="/skills/aseprite.svg" height="34" />
 </p>
+
 
 <br><br>
 
