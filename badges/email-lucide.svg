@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg width="330" height="64" viewBox="0 0 330 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="328" height="62" rx="31" fill="#E7E5DF" stroke="#D7D4CD" stroke-width="1.5"/>
+<circle cx="34" cy="32.0" r="18" fill="#ff7b72" fill-opacity="0.14"/>
+<rect x="21" y="21" width="26" height="20" rx="4" stroke="#ff7b72" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 24l11 9 11-9" stroke="#ff7b72" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="39" fill="#111111" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="0.4">EMAIL</text>
+</svg>
