@@ -11,22 +11,20 @@
   Reliable code. Thoughtful design. A little sparkle ✨<br>  
 </p>
 <p align="center">
-<a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-eda8cb?style=for-the-badge&logo=LinkedIn&logoColor=white&v=3"/>
-</a>
-
+  <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
+    <img alt="LinkedIn" src="/badges/linkedin-lucide.svg" height="44" />
+  </a>
   <a href="mailto:kstanczyk.contactme@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/EMAIL-a8b2ed?style=for-the-badge&logo=maildotru&logoColor=white"/>
+    <img alt="Email" src="/badges/email-lucide.svg" height="44" />
   </a>
-
   <a href="https://avuii.github.io/PortfolioKS/">
-    <img alt="Website" src="https://img.shields.io/badge/WEBSITE-edddab?style=for-the-badge&logo=icloud&logoColor=white"/>
+    <img alt="Website" src="/badges/website-lucide.svg" height="44" />
   </a>
-    <a href="https://discord.com/users/691598855988314152">
-    <img alt="Discord" src="https://img.shields.io/badge/DISCORD-9aa3ff?style=for-the-badge&logo=discord&logoColor=white"/>
+  <a href="https://discord.com/users/691598855988314152">
+    <img alt="Discord" src="/badges/discord-lucide.svg" height="44" />
   </a>
   <br><br>
-    Coffee-powered ☕
+  Coffee-powered ☕
 </p>
 
 <br>
