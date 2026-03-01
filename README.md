@@ -19,7 +19,7 @@
     <img alt="Email" src="https://img.shields.io/badge/EMAIL-a8b2ed?style=for-the-badge&logo=maildotru&logoColor=white"/>
   </a>
 
-  <a href="https://avuii.github.io/KatarzynaStanczyk/">
+  <a href="https://avuii.github.io/PortfolioKS/">
     <img alt="Website" src="https://img.shields.io/badge/WEBSITE-edddab?style=for-the-badge&logo=icloud&logoColor=white"/>
   </a>
     <a href="https://discord.com/users/691598855988314152">
