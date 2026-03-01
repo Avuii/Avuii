@@ -1,6 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="134" height="34" viewBox="0 0 134 34" role="img" aria-label="Matplotlib">
-  <rect x="0.5" y="0.5" width="133" height="33" rx="12" fill="#0f1520" stroke="#2ea8a8" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="25" height="22" rx="7" fill="#2ea8a8" fill-opacity="0.16" stroke="#2ea8a8" stroke-opacity="0.55"/>
-  <text x="18.5" y="20.3" text-anchor="middle" fill="#2ea8a8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.2">plt</text>
-  <text x="41" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Matplotlib</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="133" height="34" viewBox="0 0 133 34" role="img" aria-label="Matplotlib">
+  <rect x="0.5" y="0.5" width="132" height="33" rx="12" fill="#0f1520" stroke="#2ea8a8" stroke-opacity="0.28"/>
+  <rect x="6" y="6" width="22" height="22" rx="7" fill="#2ea8a8" fill-opacity="0.16" stroke="#2ea8a8" stroke-opacity="0.55"/>
+  
+    <g fill="none" stroke="#2ea8a8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M10 20.5h13"/>
+      <path d="M11 18.5v-5.2"/>
+      <path d="M16 18.5V11"/>
+      <path d="M21 18.5v-8.2"/>
+    </g>
+  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Matplotlib</text>
 </svg>

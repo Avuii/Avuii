@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="118" height="34" viewBox="0 0 118 34" role="img" aria-label="Angular">
-  <rect x="0.5" y="0.5" width="117" height="33" rx="12" fill="#0f1520" stroke="#f85149" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="26" height="22" rx="7" fill="#f85149" fill-opacity="0.16" stroke="#f85149" stroke-opacity="0.55"/>
-  <text x="19.0" y="20.3" text-anchor="middle" fill="#f85149" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.2">Ng</text>
-  <text x="42" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Angular</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="34" viewBox="0 0 116 34" role="img" aria-label="Angular">
+  <rect x="0.5" y="0.5" width="115" height="33" rx="12" fill="#0f1520" stroke="#f85149" stroke-opacity="0.28"/>
+  <rect x="6" y="6" width="22" height="22" rx="7" fill="#f85149" fill-opacity="0.16" stroke="#f85149" stroke-opacity="0.55"/>
+  <g transform="translate(9.875,10.000) scale(0.02734)" fill="#f85149"><path d="M185.7 268.1h76.2l-38.1-91.6-38.1 91.6zM223.8 32L16 106.4l31.8 275.7 176 97.9 176-97.9 31.8-275.7zM354 373.8h-48.6l-26.2-65.4H168.6l-26.2 65.4H93.7L223.8 81.5z" /></g>
+  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Angular</text>
 </svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="105" height="34" viewBox="0 0 105 34" role="img" aria-label="LaTeX">
-  <rect x="0.5" y="0.5" width="104" height="33" rx="12" fill="#0f1520" stroke="#2ea8a8" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="28" height="22" rx="7" fill="#2ea8a8" fill-opacity="0.16" stroke="#2ea8a8" stroke-opacity="0.55"/>
-  <text x="20.0" y="20.3" text-anchor="middle" fill="#2ea8a8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.2">TeX</text>
-  <text x="44" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">LaTeX</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="34" viewBox="0 0 101 34" role="img" aria-label="LaTeX">
+  <rect x="0.5" y="0.5" width="100" height="33" rx="12" fill="#0f1520" stroke="#2ea8a8" stroke-opacity="0.28"/>
+  <rect x="6" y="6" width="22" height="22" rx="7" fill="#2ea8a8" fill-opacity="0.16" stroke="#2ea8a8" stroke-opacity="0.55"/>
+  <text x="16" y="19.1" text-anchor="middle" fill="#2ea8a8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="800" letter-spacing="0.15">La</text>
+  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">LaTeX</text>
 </svg>

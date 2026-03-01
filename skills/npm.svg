@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="98" height="34" viewBox="0 0 98 34" role="img" aria-label="npm">
-  <rect x="0.5" y="0.5" width="97" height="33" rx="12" fill="#0f1520" stroke="#f85149" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="32" height="22" rx="7" fill="#f85149" fill-opacity="0.16" stroke="#f85149" stroke-opacity="0.55"/>
-  <text x="22.0" y="20.3" text-anchor="middle" fill="#f85149" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.2">npm</text>
-  <text x="48" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">npm</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="34" viewBox="0 0 90 34" role="img" aria-label="npm">
+  <rect x="0.5" y="0.5" width="89" height="33" rx="12" fill="#0f1520" stroke="#f85149" stroke-opacity="0.28"/>
+  <rect x="6" y="6" width="22" height="22" rx="7" fill="#f85149" fill-opacity="0.16" stroke="#f85149" stroke-opacity="0.55"/>
+  <g transform="translate(9.000,10.778) scale(0.02431)" fill="#f85149"><path d="M288 288h-32v-64h32v64zm288-128v192H288v32H160v-32H0V160h576zm-416 32H32v128h64v-96h32v96h32V192zm160 0H192v160h64v-32h64V192zm224 0H352v128h64v-96h32v96h32v-96h32v96h32V192z" /></g>
+  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">npm</text>
 </svg>

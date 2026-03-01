@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="140" height="34" viewBox="0 0 140 34" role="img" aria-label="SQL Server">
   <rect x="0.5" y="0.5" width="139" height="33" rx="12" fill="#0f1520" stroke="#58a6ff" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="24" height="22" rx="7" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.55"/>
-  <text x="18.0" y="20.3" text-anchor="middle" fill="#58a6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.2">SS</text>
-  <text x="40" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">SQL Server</text>
+  <rect x="6" y="6" width="22" height="22" rx="7" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.55"/>
+  <g transform="translate(9.875,10.000) scale(0.02734)" fill="#58a6ff"><path d="M0 32h214.6v214.6H0V32zm233.4 0H448v214.6H233.4V32zM0 265.4h214.6V480H0V265.4zm233.4 0H448V480H233.4V265.4z" /></g>
+  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">SQL Server</text>
 </svg>

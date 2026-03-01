@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="129" height="34" viewBox="0 0 129 34" role="img" aria-label="Bitbucket">
-  <rect x="0.5" y="0.5" width="128" height="33" rx="12" fill="#0f1520" stroke="#58a6ff" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="25" height="22" rx="7" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.55"/>
-  <text x="18.5" y="20.3" text-anchor="middle" fill="#58a6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.2">BB</text>
-  <text x="41" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Bitbucket</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="34" viewBox="0 0 128 34" role="img" aria-label="Bitbucket">
+  <rect x="0.5" y="0.5" width="127" height="33" rx="12" fill="#0f1520" stroke="#58a6ff" stroke-opacity="0.28"/>
+  <rect x="6" y="6" width="22" height="22" rx="7" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.55"/>
+  <g transform="translate(9.000,10.000) scale(0.02734)" fill="#58a6ff"><path d="M22.2 32A16 16 0 0 0 6 47.8a26.35 26.35 0 0 0 .2 2.8l67.9 412.1a21.77 21.77 0 0 0 21.3 18.2h325.7a16 16 0 0 0 16-13.4L505 50.7a16 16 0 0 0-13.2-18.3 24.58 24.58 0 0 0-2.8-.2L22.2 32zm285.9 297.8h-104l-28.1-147h157.3l-25.2 147z" /></g>
+  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Bitbucket</text>
 </svg>

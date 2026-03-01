@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="90" height="34" viewBox="0 0 90 34" role="img" aria-label=".NET">
-  <rect x="0.5" y="0.5" width="89" height="33" rx="12" fill="#0f1520" stroke="#58a6ff" stroke-opacity="0.28"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="34" viewBox="0 0 92 34" role="img" aria-label=".NET">
+  <rect x="0.5" y="0.5" width="91" height="33" rx="12" fill="#0f1520" stroke="#58a6ff" stroke-opacity="0.28"/>
   <rect x="6" y="6" width="22" height="22" rx="7" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.55"/>
-  <text x="17.0" y="20.3" text-anchor="middle" fill="#58a6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.2">.N</text>
-  <text x="38" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">.NET</text>
+  <text x="16" y="19.1" text-anchor="middle" fill="#58a6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="4.9" font-weight="800" letter-spacing="0.15">.NET</text>
+  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">.NET</text>
 </svg>

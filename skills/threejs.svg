@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="116" height="34" viewBox="0 0 116 34" role="img" aria-label="Three.js">
-  <rect x="0.5" y="0.5" width="115" height="33" rx="12" fill="#0f1520" stroke="#d29922" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#d29922" fill-opacity="0.16" stroke="#d29922" stroke-opacity="0.55"/>
-  <text x="17.0" y="20.3" text-anchor="middle" fill="#d29922" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.2">3J</text>
-  <text x="38" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Three.js</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="34" viewBox="0 0 118 34" role="img" aria-label="Three.js">
+  <rect x="0.5" y="0.5" width="117" height="33" rx="12" fill="#0f1520" stroke="#8b949e" stroke-opacity="0.28"/>
+  <rect x="6" y="6" width="22" height="22" rx="7" fill="#8b949e" fill-opacity="0.16" stroke="#8b949e" stroke-opacity="0.55"/>
+  
+    <g fill="none" stroke="#8b949e" stroke-width="1.45" stroke-linejoin="round">
+      <path d="M12 20.8l5-8.8 5 8.8z"/>
+      <path d="M14 10.2l5-2.7 5 2.7v8.8l-5 2.7-5-2.7z"/>
+    </g>
+  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Three.js</text>
 </svg>

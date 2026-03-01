@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="81" height="34" viewBox="0 0 81 34" role="img" aria-label="Jira">
-  <rect x="0.5" y="0.5" width="80" height="33" rx="12" fill="#0f1520" stroke="#7c86ff" stroke-opacity="0.28"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="34" viewBox="0 0 83 34" role="img" aria-label="Jira">
+  <rect x="0.5" y="0.5" width="82" height="33" rx="12" fill="#0f1520" stroke="#7c86ff" stroke-opacity="0.28"/>
   <rect x="6" y="6" width="22" height="22" rx="7" fill="#7c86ff" fill-opacity="0.16" stroke="#7c86ff" stroke-opacity="0.55"/>
-  <text x="17.0" y="20.3" text-anchor="middle" fill="#7c86ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.2">Jr</text>
-  <text x="38" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Jira</text>
+  <g transform="translate(9.219,10.000) scale(0.02734)" fill="#7c86ff"><path d="M490 241.7C417.1 169 320.6 71.8 248.5 0 83 164.9 6 241.7 6 241.7c-7.9 7.9-7.9 20.7 0 28.7C138.8 402.7 67.8 331.9 248.5 512c379.4-378 15.7-16.7 241.5-241.7 8-7.9 8-20.7 0-28.6zm-241.5 90l-76-75.7 76-75.7 76 75.7-76 75.7z" /></g>
+  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Jira</text>
 </svg>
