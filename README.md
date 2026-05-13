@@ -1,17 +1,9 @@
 <p align="center">
-  <img src="baner.jpg" alt="Kasia Stańczyk banner" width="100%" />
+  <img src="banerrr.svg" alt="Kasia Stańczyk banner" width="100%" />
 </p>
 <br>
 
   ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1500&color=eda1c7&width=500&lines=Grab+a+coffee+and+take+a+look+around+%E2%98%95;Nice+to+see+you+here!;Welcome+to+my+profile!)
-
-<p align="center" style="font-size: 1.1rem; color:#ffdfee;">
-<strong>Aspiring .NET Developer</strong><br>
-📍 Poland | 🎓 CS student at the University of Łódź<br>
-💼 Building business applications as a .NET Intern at De Heus<br>
-🌍 NextGen Ambassador at Commerzbank Digital Technology Centre Poland<br><br>
-Clean code. Thoughtful design. Real-world solutions.<br><br><br>
-<p align="center">
   <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
     <img alt="LinkedIn" src="/rounded-badges/linkedin-compact.svg" height="30" />
   </a>
