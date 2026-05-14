@@ -30,16 +30,35 @@
 </p>
 
 <br>
+
 <h2 align="center" style="font-size:28px; font-weight:bold;">About Me</h2>
 
-I combine **creativity with technology** — studying **Applied Computer Science** (specializing in *Programming and Algorithms*) while exploring both **visual design** and **software development**.  
+<img 
+  align="left" 
+  alt="Developer workspace animation" 
+  src="./images/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" 
+  width="260" 
+/>
 
-- I design **promotional graphics** and **user interfaces**
-- I run **social media** for my faculty
-- I code in **C++** and **Python**, and explore **frontend** technologies
-- I’m gaining experience with **databases** and **operating systems**
+<p>
+  I’m an <strong>Applied Computer Science student</strong> at the <strong>University of Łódź</strong>, specializing in <strong>Programming and Algorithms</strong>.
+</p>
+
+<p>
+  I’m growing as a <strong>.NET Developer</strong>, with a focus on <strong>business applications</strong>, <strong>databases</strong>, <strong>clean UI</strong>, and practical software solutions.
+</p>
+
+<p>
+  I enjoy combining <strong>technical problem-solving</strong> with <strong>visual design</strong> — building applications that are not only working, but also clear, useful, and pleasant to use.
+</p>
+
+<p>
+  Currently, I work mostly with <strong>C#</strong>, <strong>.NET</strong>, <strong>SQL</strong>, <strong>Entity Framework Core</strong>, and frontend technologies such as <strong>Angular</strong> and <strong>React</strong>.
+</p>
+
+<br clear="left"/>
+
 <br>
- <img alt="Skills-image" src="./images/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" height="38" />
  
 <h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2>
 
@@ -49,6 +68,7 @@ I combine **creativity with technology** — studying **Applied Computer Science
   <img alt=".NET" src="/skills/dotnet.svg" height="34" />
   <img alt="Python" src="/skills/python.svg" height="34" />
   <img alt="C++" src="/skills/cpp.svg" height="34" />
+  <img alt="Qt" src="/skills/qt.svg" height="34" />
 </p>
 
 <h3 align="center">Backend</h3>
@@ -113,7 +133,6 @@ I combine **creativity with technology** — studying **Applied Computer Science
   <img alt="3ds Max" src="/skills/dsmax.svg" height="34" />
   <img alt="Aseprite" src="/skills/aseprite.svg" height="34" />
 </p>
-
 
 <br><br>
 
