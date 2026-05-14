@@ -26,7 +26,7 @@
   </a>
 </p>
   <br><br>
-  Coffee-powered ☕
+
 </p>
 
 <br>
@@ -39,6 +39,8 @@ I combine **creativity with technology** — studying **Applied Computer Science
 - I code in **C++** and **Python**, and explore **frontend** technologies
 - I’m gaining experience with **databases** and **operating systems**
 <br>
+ <img alt="Skills-image" src="./images/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" height="38" />
+ 
 <h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2>
 
 <h3 align="center">Core</h3>
