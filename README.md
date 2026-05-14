@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banerrr.svg" alt="Kasia Stańczyk banner" width="100%" />
+  <img src="banerrrr.svg" alt="Kasia Stańczyk banner" width="100%" />
 </p>
 <br>
 
