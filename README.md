@@ -133,20 +133,83 @@
   <img alt="3ds Max" src="/skills/dsmax.svg" height="34" />
   <img alt="Aseprite" src="/skills/aseprite.svg" height="34" />
 </p>
+<br>
+
+<h2 align="center" style="font-size:28px; font-weight:bold;">Current Focus</h2>
+
+<p align="center">
+  <strong>.NET Development</strong> · <strong>Business Applications</strong> · <strong>Databases</strong> · 
+  <strong>UI Design</strong> · <strong>Cybersecurity Basics</strong> · <strong>Qt / C++</strong>
+</p>
+
+<br>
+
+<img 
+  align="right" 
+  alt="Coding animation" 
+  src="./images/242390692-0b335028-1d3d-4ee5-b5b3-a373d499be7e.gif" 
+  width="240" 
+/>
+
+<p>
+  I’m currently focused on building stronger foundations in <strong>.NET backend development</strong>, 
+  <strong>SQL databases</strong>, and <strong>real-world business application design</strong>.
+</p>
+
+<p>
+  At the same time, I’m exploring <strong>cybersecurity</strong>, especially topics connected with 
+  secure applications, API security, authentication, input validation, and understanding how systems can fail.
+</p>
+
+<p>
+  I’m also developing my skills in <strong>C++ and Qt</strong>, creating desktop applications with clean interfaces, 
+  local databases, and practical user workflows.
+</p>
+
+<br clear="right"/>
+
+<br>
+<br><br>
+
+<br><br>
 
 <br><br>
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">Stats</h2>
 
 <p align="center">
-  <img alt="GitHub Stats" height="150" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Avuii&show_icons=true&theme=rose_pine&hide_border=true"/>
-  <img alt="GitHub Streak" height="150" src="https://streak-stats.demolab.com/?user=Avuii&theme=rose_pine&hide_border=true"/>
+  <img 
+    alt="GitHub Stats" 
+    height="140" 
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=Avuii&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1&icon_color=A78BFA&rank_icon=github"
+  />
+  <img 
+    alt="Top Languages" 
+    height="140" 
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Avuii&layout=compact&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1"
+  />
+  <img 
+    alt="GitHub Streak" 
+    height="140" 
+    src="https://streak-stats.demolab.com?user=Avuii&hide_border=true&background=0D1117&ring=E879F9&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=C4B5FD&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8"
+  />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Avuii&label=%F0%9F%91%80%20Profile%20views&color=9aa3ff&style=flat" alt="Profile views"/>
+  <img 
+    alt="GitHub Activity Graph" 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Avuii&bg_color=0D1117&color=C4B5FD&line=E879F9&point=60A5FA&area=true&area_color=A78BFA&hide_border=true"
+  />
 </p>
 
+<p align="center">
+  <img 
+    src="https://komarev.com/ghpvc/?username=Avuii&label=Profile%20views&color=8B5CF6&style=flat" 
+    alt="Profile views"
+  />
+</p>
+
+---
 <br><br><br><br>
 <p align="center" style="font-size:16px; color:#ff69b4;">
   <em>Thanks for visiting my profile — feel free to reach out or ⭐ one of my future projects!</em>
