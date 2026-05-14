@@ -6,16 +6,16 @@
   ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1500&color=eda1c7&width=500&lines=Grab+a+coffee+and+take+a+look+around+%E2%98%95;Nice+to+see+you+here!;Welcome+to+my+profile!)
   <p align="center">
   <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
-    <img alt="LinkedIn" src="./rounded-badges/linkedin-clean.svg" height="38" />
+    <img alt="LinkedIn" src="./badges/linkedin-clean.svg" height="38" />
   </a>
   <a href="mailto:kstanczyk.contactme@gmail.com">
-    <img alt="Email" src="./rounded-badges/email-clean.svg" height="38" />
+    <img alt="Email" src="./badges/email-clean.svg" height="38" />
   </a>
   <a href="https://avuii.github.io/PortfolioKS/">
-    <img alt="Portfolio" src="./rounded-badges/portfolio-clean.svg" height="38" />
+    <img alt="Portfolio" src="./badges/portfolio-clean.svg" height="38" />
   </a>
   <a href="https://discord.com/users/691598855988314152">
-    <img alt="Discord" src="./rounded-badges/discord-clean.svg" height="38" />
+    <img alt="Discord" src="./badges/discord-clean.svg" height="38" />
   </a>
 </p>
   <br><br>
