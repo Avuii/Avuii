@@ -1,10 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="118" height="34" viewBox="0 0 118 34" role="img" aria-label="Three.js">
-  <rect x="0.5" y="0.5" width="117" height="33" rx="12" fill="#0f1520" stroke="#8b949e" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#8b949e" fill-opacity="0.16" stroke="#8b949e" stroke-opacity="0.55"/>
-  
-    <g fill="none" stroke="#8b949e" stroke-width="1.45" stroke-linejoin="round">
-      <path d="M12 20.8l5-8.8 5 8.8z"/>
-      <path d="M14 10.2l5-2.7 5 2.7v8.8l-5 2.7-5-2.7z"/>
-    </g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Three.js</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="40" viewBox="0 0 144 40" fill="none" role="img" aria-label="Three.js">
+  <defs>
+    <linearGradient id="border-threejs" x1="0" y1="0" x2="144" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-threejs" x1="0" y1="0" x2="144" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-threejs" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-threejs {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-threejs {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-threejs {
+        animation: pulse-threejs 4s ease-in-out infinite;
+      }
+      @keyframes pulse-threejs {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="139" height="34" rx="17" fill="url(#inner-threejs)" stroke="url(#border-threejs)" stroke-width="1.35" filter="url(#glow-threejs)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-threejs)" stroke-width="1"/>
+  <text class="mark-threejs" x="21" y="24" text-anchor="middle">3D</text>
+  <text class="label-threejs" x="42" y="25">Three.js</text>
+  <circle class="dot-threejs" cx="127" cy="20" r="3.2" fill="#60A5FA"/>
 </svg>

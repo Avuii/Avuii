@@ -1,6 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="89" height="34" viewBox="0 0 89 34" role="img" aria-label="C++">
-  <rect x="0.5" y="0.5" width="88" height="33" rx="12" fill="#0f1520" stroke="#39c5cf" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#39c5cf" fill-opacity="0.16" stroke="#39c5cf" stroke-opacity="0.55"/>
-  <text x="16" y="19.1" text-anchor="middle" fill="#39c5cf" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="6.2" font-weight="800" letter-spacing="0.15">C++</text>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">C++</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="40" viewBox="0 0 112 40" fill="none" role="img" aria-label="C++">
+  <defs>
+    <linearGradient id="border-cpp" x1="0" y1="0" x2="112" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-cpp" x1="0" y1="0" x2="112" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-cpp" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-cpp {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-cpp {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-cpp {
+        animation: pulse-cpp 4s ease-in-out infinite;
+      }
+      @keyframes pulse-cpp {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="107" height="34" rx="17" fill="url(#inner-cpp)" stroke="url(#border-cpp)" stroke-width="1.35" filter="url(#glow-cpp)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-cpp)" stroke-width="1"/>
+  <text class="mark-cpp" x="21" y="24" text-anchor="middle">C++</text>
+  <text class="label-cpp" x="42" y="25">C++</text>
+  <circle class="dot-cpp" cx="95" cy="20" r="3.2" fill="#A78BFA"/>
 </svg>

@@ -1,6 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="34" viewBox="0 0 110 34" role="img" aria-label="Docker">
-  <rect x="0.5" y="0.5" width="109" height="33" rx="12" fill="#0f1520" stroke="#39c5cf" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#39c5cf" fill-opacity="0.16" stroke="#39c5cf" stroke-opacity="0.55"/>
-  <g transform="translate(9.000,11.400) scale(0.02187)" fill="#39c5cf"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z" /></g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Docker</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="40" viewBox="0 0 126 40" fill="none" role="img" aria-label="Docker">
+  <defs>
+    <linearGradient id="border-docker" x1="0" y1="0" x2="126" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2496ED"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-docker" x1="0" y1="0" x2="126" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-docker" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-docker {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-docker {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-docker {
+        animation: pulse-docker 4s ease-in-out infinite;
+      }
+      @keyframes pulse-docker {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="121" height="34" rx="17" fill="url(#inner-docker)" stroke="url(#border-docker)" stroke-width="1.35" filter="url(#glow-docker)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-docker)" stroke-width="1"/>
+  <text class="mark-docker" x="21" y="24" text-anchor="middle">Dk</text>
+  <text class="label-docker" x="42" y="25">Docker</text>
+  <circle class="dot-docker" cx="109" cy="20" r="3.2" fill="#60A5FA"/>
 </svg>

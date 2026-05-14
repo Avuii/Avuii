@@ -1,11 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="111" height="34" viewBox="0 0 111 34" role="img" aria-label="Pandas">
-  <rect x="0.5" y="0.5" width="110" height="33" rx="12" fill="#0f1520" stroke="#bc8cff" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#bc8cff" fill-opacity="0.16" stroke="#bc8cff" stroke-opacity="0.55"/>
-  
-    <g fill="#bc8cff">
-      <rect x="10.5" y="10.2" width="3.2" height="10.6" rx="1"/>
-      <rect x="15.4" y="8.2" width="3.2" height="14.6" rx="1"/>
-      <rect x="20.3" y="10.2" width="3.2" height="10.6" rx="1"/>
-    </g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Pandas</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="40" viewBox="0 0 126 40" fill="none" role="img" aria-label="Pandas">
+  <defs>
+    <linearGradient id="border-pandas" x1="0" y1="0" x2="126" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#FACC15"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-pandas" x1="0" y1="0" x2="126" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-pandas" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-pandas {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-pandas {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-pandas {
+        animation: pulse-pandas 4s ease-in-out infinite;
+      }
+      @keyframes pulse-pandas {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="121" height="34" rx="17" fill="url(#inner-pandas)" stroke="url(#border-pandas)" stroke-width="1.35" filter="url(#glow-pandas)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-pandas)" stroke-width="1"/>
+  <text class="mark-pandas" x="21" y="24" text-anchor="middle">PD</text>
+  <text class="label-pandas" x="42" y="25">Pandas</text>
+  <circle class="dot-pandas" cx="109" cy="20" r="3.2" fill="#FACC15"/>
 </svg>

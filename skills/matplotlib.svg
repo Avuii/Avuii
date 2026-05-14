@@ -1,12 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="133" height="34" viewBox="0 0 133 34" role="img" aria-label="Matplotlib">
-  <rect x="0.5" y="0.5" width="132" height="33" rx="12" fill="#0f1520" stroke="#2ea8a8" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#2ea8a8" fill-opacity="0.16" stroke="#2ea8a8" stroke-opacity="0.55"/>
-  
-    <g fill="none" stroke="#2ea8a8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M10 20.5h13"/>
-      <path d="M11 18.5v-5.2"/>
-      <path d="M16 18.5V11"/>
-      <path d="M21 18.5v-8.2"/>
-    </g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Matplotlib</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="40" viewBox="0 0 162 40" fill="none" role="img" aria-label="Matplotlib">
+  <defs>
+    <linearGradient id="border-matplotlib" x1="0" y1="0" x2="162" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E879F9"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-matplotlib" x1="0" y1="0" x2="162" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-matplotlib" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-matplotlib {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-matplotlib {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-matplotlib {
+        animation: pulse-matplotlib 4s ease-in-out infinite;
+      }
+      @keyframes pulse-matplotlib {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="157" height="34" rx="17" fill="url(#inner-matplotlib)" stroke="url(#border-matplotlib)" stroke-width="1.35" filter="url(#glow-matplotlib)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-matplotlib)" stroke-width="1"/>
+  <text class="mark-matplotlib" x="21" y="24" text-anchor="middle">MP</text>
+  <text class="label-matplotlib" x="42" y="25">Matplotlib</text>
+  <circle class="dot-matplotlib" cx="145" cy="20" r="3.2" fill="#60A5FA"/>
 </svg>

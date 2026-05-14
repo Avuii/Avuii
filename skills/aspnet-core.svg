@@ -1,6 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="157" height="34" viewBox="0 0 157 34" role="img" aria-label="ASP.NET Core">
-  <rect x="0.5" y="0.5" width="156" height="33" rx="12" fill="#0f1520" stroke="#58a6ff" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.55"/>
-  <text x="16" y="19.1" text-anchor="middle" fill="#58a6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="4.9" font-weight="800" letter-spacing="0.15">.NET</text>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">ASP.NET Core</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 180 40" fill="none" role="img" aria-label="ASP.NET Core">
+  <defs>
+    <linearGradient id="border-aspnet-core" x1="0" y1="0" x2="180" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-aspnet-core" x1="0" y1="0" x2="180" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-aspnet-core" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-aspnet-core {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-aspnet-core {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-aspnet-core {
+        animation: pulse-aspnet-core 4s ease-in-out infinite;
+      }
+      @keyframes pulse-aspnet-core {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="175" height="34" rx="17" fill="url(#inner-aspnet-core)" stroke="url(#border-aspnet-core)" stroke-width="1.35" filter="url(#glow-aspnet-core)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-aspnet-core)" stroke-width="1"/>
+  <text class="mark-aspnet-core" x="21" y="24" text-anchor="middle">API</text>
+  <text class="label-aspnet-core" x="42" y="25">ASP.NET Core</text>
+  <circle class="dot-aspnet-core" cx="163" cy="20" r="3.2" fill="#60A5FA"/>
 </svg>

@@ -1,6 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="108" height="34" viewBox="0 0 108 34" role="img" aria-label="HTML5">
-  <rect x="0.5" y="0.5" width="107" height="33" rx="12" fill="#0f1520" stroke="#f97316" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#f97316" fill-opacity="0.16" stroke="#f97316" stroke-opacity="0.55"/>
-  <g transform="translate(10.750,10.000) scale(0.02734)" fill="#f97316"><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" /></g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">HTML5</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="40" viewBox="0 0 117 40" fill="none" role="img" aria-label="HTML5">
+  <defs>
+    <linearGradient id="border-html5" x1="0" y1="0" x2="117" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#E879F9"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-html5" x1="0" y1="0" x2="117" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-html5" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-html5 {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-html5 {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-html5 {
+        animation: pulse-html5 4s ease-in-out infinite;
+      }
+      @keyframes pulse-html5 {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="112" height="34" rx="17" fill="url(#inner-html5)" stroke="url(#border-html5)" stroke-width="1.35" filter="url(#glow-html5)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-html5)" stroke-width="1"/>
+  <text class="mark-html5" x="21" y="24" text-anchor="middle">H5</text>
+  <text class="label-html5" x="42" y="25">HTML5</text>
+  <circle class="dot-html5" cx="100" cy="20" r="3.2" fill="#E879F9"/>
 </svg>

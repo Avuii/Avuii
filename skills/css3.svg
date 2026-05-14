@@ -1,6 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="95" height="34" viewBox="0 0 95 34" role="img" aria-label="CSS3">
-  <rect x="0.5" y="0.5" width="94" height="33" rx="12" fill="#0f1520" stroke="#58a6ff" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.55"/>
-  <g transform="translate(10.750,10.000) scale(0.02734)" fill="#58a6ff"><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" /></g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">CSS3</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="40" viewBox="0 0 112 40" fill="none" role="img" aria-label="CSS3">
+  <defs>
+    <linearGradient id="border-css3" x1="0" y1="0" x2="112" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-css3" x1="0" y1="0" x2="112" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-css3" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-css3 {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-css3 {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-css3 {
+        animation: pulse-css3 4s ease-in-out infinite;
+      }
+      @keyframes pulse-css3 {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="107" height="34" rx="17" fill="url(#inner-css3)" stroke="url(#border-css3)" stroke-width="1.35" filter="url(#glow-css3)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-css3)" stroke-width="1"/>
+  <text class="mark-css3" x="21" y="24" text-anchor="middle">C3</text>
+  <text class="label-css3" x="42" y="25">CSS3</text>
+  <circle class="dot-css3" cx="95" cy="20" r="3.2" fill="#A78BFA"/>
 </svg>

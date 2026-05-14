@@ -1,10 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="Tailwind CSS">
-  <rect x="0.5" y="0.5" width="149" height="33" rx="12" fill="#0f1520" stroke="#58a6ff" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.55"/>
-  
-    <g fill="none" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round">
-      <path d="M10.5 13.2c1.6-2.7 4-3.8 7.2-3.3 2 .3 3.4 1.4 4.2 3.3-1.6 2.7-4 3.8-7.2 3.3-2-.3-3.4-1.4-4.2-3.3z"/>
-      <path d="M12.1 19.4c1.3-2.1 3.3-3 5.8-2.6 1.6.2 2.8 1 3.5 2.6-1.3 2.1-3.3 3-5.8 2.6-1.6-.2-2.8-1-3.5-2.6z"/>
-    </g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Tailwind CSS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 180 40" fill="none" role="img" aria-label="Tailwind CSS">
+  <defs>
+    <linearGradient id="border-tailwind-css" x1="0" y1="0" x2="180" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-tailwind-css" x1="0" y1="0" x2="180" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-tailwind-css" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-tailwind-css {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-tailwind-css {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-tailwind-css {
+        animation: pulse-tailwind-css 4s ease-in-out infinite;
+      }
+      @keyframes pulse-tailwind-css {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="175" height="34" rx="17" fill="url(#inner-tailwind-css)" stroke="url(#border-tailwind-css)" stroke-width="1.35" filter="url(#glow-tailwind-css)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-tailwind-css)" stroke-width="1"/>
+  <text class="mark-tailwind-css" x="21" y="24" text-anchor="middle">Tw</text>
+  <text class="label-tailwind-css" x="42" y="25">Tailwind CSS</text>
+  <circle class="dot-tailwind-css" cx="163" cy="20" r="3.2" fill="#A78BFA"/>
 </svg>

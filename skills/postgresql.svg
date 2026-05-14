@@ -1,6 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="144" height="34" viewBox="0 0 144 34" role="img" aria-label="PostgreSQL">
-  <rect x="0.5" y="0.5" width="143" height="33" rx="12" fill="#0f1520" stroke="#7c86ff" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#7c86ff" fill-opacity="0.16" stroke="#7c86ff" stroke-opacity="0.55"/>
-  <text x="16" y="19.1" text-anchor="middle" fill="#7c86ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="800" letter-spacing="0.15">PG</text>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">PostgreSQL</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="40" viewBox="0 0 162 40" fill="none" role="img" aria-label="PostgreSQL">
+  <defs>
+    <linearGradient id="border-postgresql" x1="0" y1="0" x2="162" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-postgresql" x1="0" y1="0" x2="162" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-postgresql" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-postgresql {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-postgresql {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-postgresql {
+        animation: pulse-postgresql 4s ease-in-out infinite;
+      }
+      @keyframes pulse-postgresql {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="157" height="34" rx="17" fill="url(#inner-postgresql)" stroke="url(#border-postgresql)" stroke-width="1.35" filter="url(#glow-postgresql)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-postgresql)" stroke-width="1"/>
+  <text class="mark-postgresql" x="21" y="24" text-anchor="middle">PG</text>
+  <text class="label-postgresql" x="42" y="25">PostgreSQL</text>
+  <circle class="dot-postgresql" cx="145" cy="20" r="3.2" fill="#8B5CF6"/>
 </svg>

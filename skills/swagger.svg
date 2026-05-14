@@ -1,10 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="123" height="34" viewBox="0 0 123 34" role="img" aria-label="Swagger">
-  <rect x="0.5" y="0.5" width="122" height="33" rx="12" fill="#0f1520" stroke="#3fb950" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#3fb950" fill-opacity="0.16" stroke="#3fb950" stroke-opacity="0.55"/>
-  
-    <g fill="none" stroke="#3fb950" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="17" cy="17" r="6.2"/>
-      <path d="M20.8 13.3c-1-.9-2.2-1.4-3.9-1.4-1.7 0-3 .8-3 2 0 1.2.9 1.7 2.8 2.1 1.8.4 2.6.7 2.6 1.7 0 1-.9 1.7-2.4 1.7-1.4 0-2.8-.5-4-1.5"/>
-    </g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Swagger</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="40" viewBox="0 0 135 40" fill="none" role="img" aria-label="Swagger">
+  <defs>
+    <linearGradient id="border-swagger" x1="0" y1="0" x2="135" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#85EA2D"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-swagger" x1="0" y1="0" x2="135" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-swagger" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-swagger {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-swagger {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-swagger {
+        animation: pulse-swagger 4s ease-in-out infinite;
+      }
+      @keyframes pulse-swagger {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="130" height="34" rx="17" fill="url(#inner-swagger)" stroke="url(#border-swagger)" stroke-width="1.35" filter="url(#glow-swagger)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-swagger)" stroke-width="1"/>
+  <text class="mark-swagger" x="21" y="24" text-anchor="middle">SW</text>
+  <text class="label-swagger" x="42" y="25">Swagger</text>
+  <circle class="dot-swagger" cx="118" cy="20" r="3.2" fill="#60A5FA"/>
 </svg>

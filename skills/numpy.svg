@@ -1,11 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="34" viewBox="0 0 110 34" role="img" aria-label="NumPy">
-  <rect x="0.5" y="0.5" width="109" height="33" rx="12" fill="#0f1520" stroke="#58a6ff" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#58a6ff" fill-opacity="0.16" stroke="#58a6ff" stroke-opacity="0.55"/>
-  
-    <g fill="none" stroke="#58a6ff" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round">
-      <path d="M10.5 18V10.7l4.8-2.7 0 7.3z"/>
-      <path d="M15.3 8l4.8 2.7v7.3l-4.8-2.7z"/>
-      <path d="M13.1 19.2l4.8 2.8 4.8-2.8"/>
-    </g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">NumPy</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="40" viewBox="0 0 117 40" fill="none" role="img" aria-label="NumPy">
+  <defs>
+    <linearGradient id="border-numpy" x1="0" y1="0" x2="117" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-numpy" x1="0" y1="0" x2="117" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-numpy" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-numpy {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-numpy {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-numpy {
+        animation: pulse-numpy 4s ease-in-out infinite;
+      }
+      @keyframes pulse-numpy {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="112" height="34" rx="17" fill="url(#inner-numpy)" stroke="url(#border-numpy)" stroke-width="1.35" filter="url(#glow-numpy)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-numpy)" stroke-width="1"/>
+  <text class="mark-numpy" x="21" y="24" text-anchor="middle">NP</text>
+  <text class="label-numpy" x="42" y="25">NumPy</text>
+  <circle class="dot-numpy" cx="100" cy="20" r="3.2" fill="#22C55E"/>
 </svg>

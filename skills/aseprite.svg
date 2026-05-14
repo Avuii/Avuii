@@ -1,13 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="34" viewBox="0 0 120 34" role="img" aria-label="Aseprite">
-  <rect x="0.5" y="0.5" width="119" height="33" rx="12" fill="#0f1520" stroke="#bc8cff" stroke-opacity="0.28"/>
-  <rect x="6" y="6" width="22" height="22" rx="7" fill="#bc8cff" fill-opacity="0.16" stroke="#bc8cff" stroke-opacity="0.55"/>
-  
-    <g>
-      <rect x="11" y="10" width="10" height="10" rx="2" fill="none" stroke="#bc8cff" stroke-width="1.25"/>
-      <rect x="12.4" y="11.6" width="2" height="2" fill="#bc8cff"/>
-      <rect x="17.6" y="11.6" width="2" height="2" fill="#bc8cff"/>
-      <rect x="15.0" y="15.4" width="3" height="1.6" rx="0.8" fill="#bc8cff"/>
-      <path d="M20.5 20.5l2.5 2.5" stroke="#bc8cff" stroke-width="1.3" stroke-linecap="round"/>
-    </g>
-  <text x="39" y="21.2" fill="#E6EDF3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Aseprite</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="40" viewBox="0 0 144 40" fill="none" role="img" aria-label="Aseprite">
+  <defs>
+    <linearGradient id="border-aseprite" x1="0" y1="0" x2="144" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7DD3FC"/>
+      <stop offset="50%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#E879F9"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="inner-aseprite" x1="0" y1="0" x2="144" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#151225"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow-aseprite" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label-aseprite {
+        font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+        letter-spacing: .1px;
+      }
+      .mark-aseprite {
+        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
+        fill: #F8FAFC;
+      }
+      .dot-aseprite {
+        animation: pulse-aseprite 4s ease-in-out infinite;
+      }
+      @keyframes pulse-aseprite {
+        0%, 100% { opacity: .38; }
+        50% { opacity: .9; }
+      }
+    </style>
+  </defs>
+  <rect x="2.5" y="3" width="139" height="34" rx="17" fill="url(#inner-aseprite)" stroke="url(#border-aseprite)" stroke-width="1.35" filter="url(#glow-aseprite)"/>
+  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-aseprite)" stroke-width="1"/>
+  <text class="mark-aseprite" x="21" y="24" text-anchor="middle">Px</text>
+  <text class="label-aseprite" x="42" y="25">Aseprite</text>
+  <circle class="dot-aseprite" cx="127" cy="20" r="3.2" fill="#E879F9"/>
 </svg>
