@@ -1,45 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="162" height="40" viewBox="0 0 162 40" fill="none" role="img" aria-label="PostgreSQL">
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="42" viewBox="0 0 156 42" fill="none" role="img" aria-label="PostgreSQL">
   <defs>
-    <linearGradient id="border-postgresql" x1="0" y1="0" x2="162" y2="40" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#60A5FA"/>
-      <stop offset="50%" stop-color="#E879F9"/>
-      <stop offset="100%" stop-color="#8B5CF6"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="badge-border-postgresql" x1="0" y1="0" x2="156" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity=".72"/>
+      <stop offset="50%" stop-color="#E879F9" stop-opacity=".48"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity=".72"/>
     </linearGradient>
-    <linearGradient id="inner-postgresql" x1="0" y1="0" x2="162" y2="40" gradientUnits="userSpaceOnUse">
+    <linearGradient id="badge-bg-postgresql" x1="0" y1="0" x2="156" y2="42" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#111827"/>
-      <stop offset="55%" stop-color="#151225"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="55%" stop-color="#121826"/>
+      <stop offset="100%" stop-color="#0B1020"/>
     </linearGradient>
-    <filter id="glow-postgresql" x="-20%" y="-60%" width="140%" height="220%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <linearGradient id="canvaIconGrad" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00C4CC"/>
+      <stop offset="55%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="soft-glow-postgresql" x="-12%" y="-35%" width="124%" height="170%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <style>
-      .label-postgresql {
+      .skill-label-postgresql {
         font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-        letter-spacing: .1px;
-      }
-      .mark-postgresql {
-        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-      }
-      .dot-postgresql {
-        animation: pulse-postgresql 4s ease-in-out infinite;
-      }
-      @keyframes pulse-postgresql {
-        0%, 100% { opacity: .38; }
-        50% { opacity: .9; }
+        fill: #CBD5E1;
+        letter-spacing: .05px;
       }
     </style>
   </defs>
-  <rect x="2.5" y="3" width="157" height="34" rx="17" fill="url(#inner-postgresql)" stroke="url(#border-postgresql)" stroke-width="1.35" filter="url(#glow-postgresql)"/>
-  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-postgresql)" stroke-width="1"/>
-  <text class="mark-postgresql" x="21" y="24" text-anchor="middle">PG</text>
-  <text class="label-postgresql" x="42" y="25">PostgreSQL</text>
-  <circle class="dot-postgresql" cx="145" cy="20" r="3.2" fill="#8B5CF6"/>
+
+  <rect x="2.5" y="3" width="151" height="36" rx="18" fill="url(#badge-bg-postgresql)" stroke="url(#badge-border-postgresql)" stroke-width="1.25" filter="url(#soft-glow-postgresql)"/>
+  <g transform="translate(12 9)">
+    
+<path d="M7.3 17.8c-2.3-2.2-3.1-5.6-1.7-8.8 1.1-2.5 3.5-4.1 6.4-4.1s5.2 1.6 6.4 4.1c1.2 2.8.7 5.7-1.1 7.9l1.2 3.2-3.6-1.2c-.9.4-1.9.6-2.9.6-1.3 0-2.4-.3-3.4-.8l-3.1 1.3z" fill="none" stroke="#FFFFFF" stroke-width="1.9" stroke-linejoin="round"/>
+<path d="M13.9 8.7c2.2 1.1 2.7 3.1 1.6 5.1-.6 1.1-1.5 2-2.8 2.7" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="9.5" cy="10.5" r=".9" fill="#FFFFFF"/>
+<circle cx="14.4" cy="10.5" r=".9" fill="#FFFFFF"/>
+  </g>
+  <text class="skill-label-postgresql" x="47" y="26">PostgreSQL</text>
 </svg>

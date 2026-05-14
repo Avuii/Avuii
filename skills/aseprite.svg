@@ -1,45 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="144" height="40" viewBox="0 0 144 40" fill="none" role="img" aria-label="Aseprite">
+<svg xmlns="http://www.w3.org/2000/svg" width="139" height="42" viewBox="0 0 139 42" fill="none" role="img" aria-label="Aseprite">
   <defs>
-    <linearGradient id="border-aseprite" x1="0" y1="0" x2="144" y2="40" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#7DD3FC"/>
-      <stop offset="50%" stop-color="#E879F9"/>
-      <stop offset="100%" stop-color="#E879F9"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="badge-border-aseprite" x1="0" y1="0" x2="139" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity=".72"/>
+      <stop offset="50%" stop-color="#E879F9" stop-opacity=".48"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity=".72"/>
     </linearGradient>
-    <linearGradient id="inner-aseprite" x1="0" y1="0" x2="144" y2="40" gradientUnits="userSpaceOnUse">
+    <linearGradient id="badge-bg-aseprite" x1="0" y1="0" x2="139" y2="42" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#111827"/>
-      <stop offset="55%" stop-color="#151225"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="55%" stop-color="#121826"/>
+      <stop offset="100%" stop-color="#0B1020"/>
     </linearGradient>
-    <filter id="glow-aseprite" x="-20%" y="-60%" width="140%" height="220%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <linearGradient id="canvaIconGrad" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00C4CC"/>
+      <stop offset="55%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="soft-glow-aseprite" x="-12%" y="-35%" width="124%" height="170%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <style>
-      .label-aseprite {
+      .skill-label-aseprite {
         font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-        letter-spacing: .1px;
-      }
-      .mark-aseprite {
-        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-      }
-      .dot-aseprite {
-        animation: pulse-aseprite 4s ease-in-out infinite;
-      }
-      @keyframes pulse-aseprite {
-        0%, 100% { opacity: .38; }
-        50% { opacity: .9; }
+        fill: #CBD5E1;
+        letter-spacing: .05px;
       }
     </style>
   </defs>
-  <rect x="2.5" y="3" width="139" height="34" rx="17" fill="url(#inner-aseprite)" stroke="url(#border-aseprite)" stroke-width="1.35" filter="url(#glow-aseprite)"/>
-  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-aseprite)" stroke-width="1"/>
-  <text class="mark-aseprite" x="21" y="24" text-anchor="middle">Px</text>
-  <text class="label-aseprite" x="42" y="25">Aseprite</text>
-  <circle class="dot-aseprite" cx="127" cy="20" r="3.2" fill="#E879F9"/>
+
+  <rect x="2.5" y="3" width="134" height="36" rx="18" fill="url(#badge-bg-aseprite)" stroke="url(#badge-border-aseprite)" stroke-width="1.25" filter="url(#soft-glow-aseprite)"/>
+  <g transform="translate(12 9)">
+    
+<rect x="6" y="5" width="12" height="14" fill="#FFFFFF"/>
+<rect x="5" y="7" width="2" height="10" fill="#9CA3AF"/>
+<rect x="17" y="7" width="2" height="10" fill="#9CA3AF"/>
+<rect x="8" y="9" width="2" height="4" fill="#111827"/>
+<rect x="14" y="9" width="2" height="4" fill="#111827"/>
+<rect x="7" y="19" width="10" height="2" fill="#64748B"/>
+  </g>
+  <text class="skill-label-aseprite" x="47" y="26">Aseprite</text>
 </svg>

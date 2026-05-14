@@ -1,45 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="189" height="40" viewBox="0 0 189 40" fill="none" role="img" aria-label="Visual Studio">
+<svg xmlns="http://www.w3.org/2000/svg" width="181" height="42" viewBox="0 0 181 42" fill="none" role="img" aria-label="Visual Studio">
   <defs>
-    <linearGradient id="border-visual-studio" x1="0" y1="0" x2="189" y2="40" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#A78BFA"/>
-      <stop offset="50%" stop-color="#E879F9"/>
-      <stop offset="100%" stop-color="#60A5FA"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="badge-border-visual-studio" x1="0" y1="0" x2="181" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity=".72"/>
+      <stop offset="50%" stop-color="#E879F9" stop-opacity=".48"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity=".72"/>
     </linearGradient>
-    <linearGradient id="inner-visual-studio" x1="0" y1="0" x2="189" y2="40" gradientUnits="userSpaceOnUse">
+    <linearGradient id="badge-bg-visual-studio" x1="0" y1="0" x2="181" y2="42" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#111827"/>
-      <stop offset="55%" stop-color="#151225"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="55%" stop-color="#121826"/>
+      <stop offset="100%" stop-color="#0B1020"/>
     </linearGradient>
-    <filter id="glow-visual-studio" x="-20%" y="-60%" width="140%" height="220%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <linearGradient id="canvaIconGrad" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00C4CC"/>
+      <stop offset="55%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="soft-glow-visual-studio" x="-12%" y="-35%" width="124%" height="170%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <style>
-      .label-visual-studio {
+      .skill-label-visual-studio {
         font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-        letter-spacing: .1px;
-      }
-      .mark-visual-studio {
-        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-      }
-      .dot-visual-studio {
-        animation: pulse-visual-studio 4s ease-in-out infinite;
-      }
-      @keyframes pulse-visual-studio {
-        0%, 100% { opacity: .38; }
-        50% { opacity: .9; }
+        fill: #CBD5E1;
+        letter-spacing: .05px;
       }
     </style>
   </defs>
-  <rect x="2.5" y="3" width="184" height="34" rx="17" fill="url(#inner-visual-studio)" stroke="url(#border-visual-studio)" stroke-width="1.35" filter="url(#glow-visual-studio)"/>
-  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-visual-studio)" stroke-width="1"/>
-  <text class="mark-visual-studio" x="21" y="24" text-anchor="middle">VS</text>
-  <text class="label-visual-studio" x="42" y="25">Visual Studio</text>
-  <circle class="dot-visual-studio" cx="172" cy="20" r="3.2" fill="#60A5FA"/>
+
+  <rect x="2.5" y="3" width="176" height="36" rx="18" fill="url(#badge-bg-visual-studio)" stroke="url(#badge-border-visual-studio)" stroke-width="1.25" filter="url(#soft-glow-visual-studio)"/>
+  <g transform="translate(12 9)">
+    
+<path d="M3.2 8.2 7.2 5.2l5.8 4.8 6.5-5v14l-6.5-5-5.8 4.8-4-3.1 5.4-4.2z" fill="#6C33AF"/>
+<path d="M13 10v4l3.7 2.8V7.2z" fill="#A78BFA"/>
+  </g>
+  <text class="skill-label-visual-studio" x="47" y="26">Visual Studio</text>
 </svg>

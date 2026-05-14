@@ -1,45 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="135" height="40" viewBox="0 0 135 40" fill="none" role="img" aria-label="PyCharm">
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="42" viewBox="0 0 130 42" fill="none" role="img" aria-label="PyCharm">
   <defs>
-    <linearGradient id="border-pycharm" x1="0" y1="0" x2="135" y2="40" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#22C55E"/>
-      <stop offset="50%" stop-color="#E879F9"/>
-      <stop offset="100%" stop-color="#A78BFA"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="badge-border-pycharm" x1="0" y1="0" x2="130" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity=".72"/>
+      <stop offset="50%" stop-color="#E879F9" stop-opacity=".48"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity=".72"/>
     </linearGradient>
-    <linearGradient id="inner-pycharm" x1="0" y1="0" x2="135" y2="40" gradientUnits="userSpaceOnUse">
+    <linearGradient id="badge-bg-pycharm" x1="0" y1="0" x2="130" y2="42" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#111827"/>
-      <stop offset="55%" stop-color="#151225"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="55%" stop-color="#121826"/>
+      <stop offset="100%" stop-color="#0B1020"/>
     </linearGradient>
-    <filter id="glow-pycharm" x="-20%" y="-60%" width="140%" height="220%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <linearGradient id="canvaIconGrad" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00C4CC"/>
+      <stop offset="55%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="soft-glow-pycharm" x="-12%" y="-35%" width="124%" height="170%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <style>
-      .label-pycharm {
+      .skill-label-pycharm {
         font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-        letter-spacing: .1px;
-      }
-      .mark-pycharm {
-        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-      }
-      .dot-pycharm {
-        animation: pulse-pycharm 4s ease-in-out infinite;
-      }
-      @keyframes pulse-pycharm {
-        0%, 100% { opacity: .38; }
-        50% { opacity: .9; }
+        fill: #CBD5E1;
+        letter-spacing: .05px;
       }
     </style>
   </defs>
-  <rect x="2.5" y="3" width="130" height="34" rx="17" fill="url(#inner-pycharm)" stroke="url(#border-pycharm)" stroke-width="1.35" filter="url(#glow-pycharm)"/>
-  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-pycharm)" stroke-width="1"/>
-  <text class="mark-pycharm" x="21" y="24" text-anchor="middle">PC</text>
-  <text class="label-pycharm" x="42" y="25">PyCharm</text>
-  <circle class="dot-pycharm" cx="118" cy="20" r="3.2" fill="#A78BFA"/>
+
+  <rect x="2.5" y="3" width="125" height="36" rx="18" fill="url(#badge-bg-pycharm)" stroke="url(#badge-border-pycharm)" stroke-width="1.25" filter="url(#soft-glow-pycharm)"/>
+  <g transform="translate(12 9)">
+    
+<path d="M4 6.2 13.7 3 20 9.2 16.5 21 5.3 18.6z" fill="#22C55E"/>
+<path d="M4 6.2 10.5 12.4 5.3 18.6z" fill="#FACC15"/>
+<path d="M13.7 3 20 9.2 10.5 12.4z" fill="#10B981"/>
+<rect x="7" y="7" width="10.3" height="10.3" fill="#0D1117"/>
+<text x="12.2" y="14.2" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="5.8" fill="#FFFFFF">PC</text>
+<rect x="9" y="15.2" width="6" height=".9" fill="#FFFFFF"/>
+  </g>
+  <text class="skill-label-pycharm" x="47" y="26">PyCharm</text>
 </svg>

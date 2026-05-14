@@ -1,45 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="112" height="40" viewBox="0 0 112 40" fill="none" role="img" aria-label="npm">
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="42" viewBox="0 0 118 42" fill="none" role="img" aria-label="npm">
   <defs>
-    <linearGradient id="border-npm" x1="0" y1="0" x2="112" y2="40" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#EF4444"/>
-      <stop offset="50%" stop-color="#E879F9"/>
-      <stop offset="100%" stop-color="#A78BFA"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="badge-border-npm" x1="0" y1="0" x2="118" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#CB3837" stop-opacity=".72"/>
+      <stop offset="50%" stop-color="#E879F9" stop-opacity=".48"/>
+      <stop offset="100%" stop-color="#E879F9" stop-opacity=".72"/>
     </linearGradient>
-    <linearGradient id="inner-npm" x1="0" y1="0" x2="112" y2="40" gradientUnits="userSpaceOnUse">
+    <linearGradient id="badge-bg-npm" x1="0" y1="0" x2="118" y2="42" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#111827"/>
-      <stop offset="55%" stop-color="#151225"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="55%" stop-color="#121826"/>
+      <stop offset="100%" stop-color="#0B1020"/>
     </linearGradient>
-    <filter id="glow-npm" x="-20%" y="-60%" width="140%" height="220%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <linearGradient id="canvaIconGrad" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00C4CC"/>
+      <stop offset="55%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="soft-glow-npm" x="-12%" y="-35%" width="124%" height="170%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <style>
-      .label-npm {
+      .skill-label-npm {
         font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-        letter-spacing: .1px;
-      }
-      .mark-npm {
-        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-      }
-      .dot-npm {
-        animation: pulse-npm 4s ease-in-out infinite;
-      }
-      @keyframes pulse-npm {
-        0%, 100% { opacity: .38; }
-        50% { opacity: .9; }
+        fill: #CBD5E1;
+        letter-spacing: .05px;
       }
     </style>
   </defs>
-  <rect x="2.5" y="3" width="107" height="34" rx="17" fill="url(#inner-npm)" stroke="url(#border-npm)" stroke-width="1.35" filter="url(#glow-npm)"/>
-  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-npm)" stroke-width="1"/>
-  <text class="mark-npm" x="21" y="24" text-anchor="middle">npm</text>
-  <text class="label-npm" x="42" y="25">npm</text>
-  <circle class="dot-npm" cx="95" cy="20" r="3.2" fill="#A78BFA"/>
+
+  <rect x="2.5" y="3" width="113" height="36" rx="18" fill="url(#badge-bg-npm)" stroke="url(#badge-border-npm)" stroke-width="1.25" filter="url(#soft-glow-npm)"/>
+  <g transform="translate(12 9)">
+    
+<rect x="2.7" y="6" width="18.6" height="12.2" rx="1.2" fill="#CB3837"/>
+<text x="12" y="15.4" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="7.2" fill="#FFFFFF">npm</text>
+  </g>
+  <text class="skill-label-npm" x="47" y="26">npm</text>
 </svg>

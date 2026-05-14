@@ -1,45 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="126" height="40" viewBox="0 0 126 40" fill="none" role="img" aria-label="Pandas">
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="42" viewBox="0 0 122 42" fill="none" role="img" aria-label="Pandas">
   <defs>
-    <linearGradient id="border-pandas" x1="0" y1="0" x2="126" y2="40" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#A78BFA"/>
-      <stop offset="50%" stop-color="#E879F9"/>
-      <stop offset="100%" stop-color="#FACC15"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-24 0; 24 0; -24 0" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="badge-border-pandas" x1="0" y1="0" x2="122" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E879F9" stop-opacity=".72"/>
+      <stop offset="50%" stop-color="#E879F9" stop-opacity=".48"/>
+      <stop offset="100%" stop-color="#FACC15" stop-opacity=".72"/>
     </linearGradient>
-    <linearGradient id="inner-pandas" x1="0" y1="0" x2="126" y2="40" gradientUnits="userSpaceOnUse">
+    <linearGradient id="badge-bg-pandas" x1="0" y1="0" x2="122" y2="42" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#111827"/>
-      <stop offset="55%" stop-color="#151225"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="55%" stop-color="#121826"/>
+      <stop offset="100%" stop-color="#0B1020"/>
     </linearGradient>
-    <filter id="glow-pandas" x="-20%" y="-60%" width="140%" height="220%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+    <linearGradient id="canvaIconGrad" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00C4CC"/>
+      <stop offset="55%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="soft-glow-pandas" x="-12%" y="-35%" width="124%" height="170%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <style>
-      .label-pandas {
+      .skill-label-pandas {
         font: 700 14px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-        letter-spacing: .1px;
-      }
-      .mark-pandas {
-        font: 800 11px 'Segoe UI', Inter, Arial, sans-serif;
-        fill: #F8FAFC;
-      }
-      .dot-pandas {
-        animation: pulse-pandas 4s ease-in-out infinite;
-      }
-      @keyframes pulse-pandas {
-        0%, 100% { opacity: .38; }
-        50% { opacity: .9; }
+        fill: #CBD5E1;
+        letter-spacing: .05px;
       }
     </style>
   </defs>
-  <rect x="2.5" y="3" width="121" height="34" rx="17" fill="url(#inner-pandas)" stroke="url(#border-pandas)" stroke-width="1.35" filter="url(#glow-pandas)"/>
-  <rect x="10" y="9" width="22" height="22" rx="8" fill="#0B1020" stroke="url(#border-pandas)" stroke-width="1"/>
-  <text class="mark-pandas" x="21" y="24" text-anchor="middle">PD</text>
-  <text class="label-pandas" x="42" y="25">Pandas</text>
-  <circle class="dot-pandas" cx="109" cy="20" r="3.2" fill="#FACC15"/>
+
+  <rect x="2.5" y="3" width="117" height="36" rx="18" fill="url(#badge-bg-pandas)" stroke="url(#badge-border-pandas)" stroke-width="1.25" filter="url(#soft-glow-pandas)"/>
+  <g transform="translate(12 9)">
+    
+<rect x="5" y="4" width="3" height="16" fill="#FFFFFF"/>
+<rect x="10.5" y="7" width="3" height="13" fill="#FFFFFF"/>
+<rect x="16" y="4" width="3" height="16" fill="#FFFFFF"/>
+<rect x="10.5" y="4" width="3" height="2" fill="#E70488"/>
+<rect x="10.5" y="21" width="3" height="2" fill="#150458"/>
+<rect x="16" y="10" width="3" height="3" fill="#FFCA00"/>
+  </g>
+  <text class="skill-label-pandas" x="47" y="26">Pandas</text>
 </svg>
