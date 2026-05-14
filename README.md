@@ -198,16 +198,18 @@
     src="https://github-readme-activity-graph.vercel.app/graph?username=Avuii&bg_color=0D1117&color=C4B5FD&line=E879F9&point=60A5FA&area=true&area_color=A78BFA&hide_border=true"
   />
 </p>
+<br>
 
+
+---
+<br><br><br>
 <p align="center">
   <img 
     src="https://komarev.com/ghpvc/?username=Avuii&label=Profile%20views&color=8B5CF6&style=flat" 
     alt="Profile views"
   />
 </p>
-
----
-<br><br><br><br>
+<br>
 <p align="center" style="font-size:16px; color:#ff69b4;">
   <em>Thanks for visiting my profile — feel free to reach out or ⭐ one of my projects!</em>
 </p>
