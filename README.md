@@ -3,7 +3,14 @@
 </p>
 <br>
 
-  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1500&color=eda1c7&width=500&lines=Grab+a+coffee+and+take+a+look+around+%E2%98%95;Nice+to+see+you+here!;Welcome+to+my+profile!)
+ <p align="center">
+ <p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1500&color=E879F9&center=true&vCenter=true&width=900&lines=Coffee-powered+developer+building+useful+things;C%23+%E2%80%A2+.NET+%E2%80%A2+SQL+%E2%80%A2+UI+Design;Creating+clean+and+practical+software+solutions;Welcome+to+my+GitHub+space"
+    alt="Typing SVG"
+  />
+</p>
+</p>
   <p align="center">
   <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
     <img alt="LinkedIn" src="./badges/linkedin-clean.svg" height="38" />
