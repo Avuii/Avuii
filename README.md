@@ -1,17 +1,17 @@
 <p align="center">
   <img src="banerrrr.svg" alt="Kasia Stańczyk banner" width="100%" />
 </p>
+
 <br>
 
- <p align="center">
- <p align="center">
+<p align="center">
   <img
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1500&color=E879F9&center=true&vCenter=true&width=900&lines=Coffee-powered+developer+building+useful+things;C%23+%E2%80%A2+.NET+%E2%80%A2+SQL+%E2%80%A2+UI+Design;Creating+clean+and+practical+software+solutions;Welcome+to+my+GitHub+space"
     alt="Typing SVG"
   />
 </p>
-</p>
-  <p align="center">
+
+<p align="center">
   <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
     <img alt="LinkedIn" src="./badges/linkedin-clean.svg" height="38" />
   </a>
@@ -25,9 +25,8 @@
     <img alt="Discord" src="./badges/discord-clean.svg" height="38" />
   </a>
 </p>
-  <br><br>
 
-</p>
+<br>
 
 <br>
 
@@ -133,7 +132,7 @@
   <img alt="3ds Max" src="/skills/dsmax.svg" height="34" />
   <img alt="Aseprite" src="/skills/aseprite.svg" height="34" />
 </p>
-<br>
+<br><br><br><br>
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">Current Focus</h2>
 
@@ -170,10 +169,7 @@
 
 <br>
 <br><br>
-
-<br><br>
-
-<br><br>
+<br>
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">Stats</h2>
 
@@ -197,7 +193,8 @@
 
 <p align="center">
   <img 
-    alt="GitHub Activity Graph" 
+    alt="GitHub Activity Graph"
+    height="220"
     src="https://github-readme-activity-graph.vercel.app/graph?username=Avuii&bg_color=0D1117&color=C4B5FD&line=E879F9&point=60A5FA&area=true&area_color=A78BFA&hide_border=true"
   />
 </p>
@@ -212,7 +209,7 @@
 ---
 <br><br><br><br>
 <p align="center" style="font-size:16px; color:#ff69b4;">
-  <em>Thanks for visiting my profile — feel free to reach out or ⭐ one of my future projects!</em>
+  <em>Thanks for visiting my profile — feel free to reach out or ⭐ one of my projects!</em>
 </p>
 
 
