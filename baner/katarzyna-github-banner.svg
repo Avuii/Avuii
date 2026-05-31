@@ -1,0 +1,151 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Katarzyna Stańczyk GitHub banner</title>
+  <desc id="desc">Animated transparent GitHub profile banner with neon violet and blue glow, .NET Developer subtitle, and animated info badges for Computer Science, Poland, and University of Łódź.</desc>
+
+  <defs>
+    <linearGradient id="nameGradient" x1="140" y1="0" x2="1060" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1B1F7A">
+        <animate attributeName="stop-color" values="#1B1F7A;#4338CA;#8B5CF6;#1B1F7A" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="52%" stop-color="#6D28D9">
+        <animate attributeName="stop-color" values="#6D28D9;#A855F7;#0EA5E9;#6D28D9" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0EA5E9">
+        <animate attributeName="stop-color" values="#0EA5E9;#60A5FA;#EC4899;#0EA5E9" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="flowLineGradient" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="0.16" stop-color="#C084FC" stop-opacity="0.85"/>
+      <stop offset="0.50" stop-color="#EC4899" stop-opacity="0.88"/>
+      <stop offset="0.82" stop-color="#38BDF8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="badgeStroke" x1="0" y1="0" x2="340" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EC4899">
+        <animate attributeName="stop-color" values="#EC4899;#A855F7;#8B5CF6;#EC4899" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#6366F1;#0EA5E9;#8B5CF6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#60A5FA;#A855F7;#38BDF8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="violetGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pinkGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textShadow" x="-25%" y="-40%" width="150%" height="190%">
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#312EAD" flood-opacity="0.55"/>
+    </filter>
+
+    <filter id="badgeGlow" x="-18%" y="-50%" width="136%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#A855F7" flood-opacity="0.38"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#0EA5E9" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <g opacity="0.92">
+    <circle cx="175" cy="92" r="136" fill="url(#violetGlow)">
+      <animate attributeName="cx" values="175;225;175" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="124;150;124" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1008" cy="94" r="146" fill="url(#cyanGlow)">
+      <animate attributeName="cx" values="1008;960;1008" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="132;166;132" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="603" cy="230" r="126" fill="url(#pinkGlow)">
+      <animate attributeName="cy" values="230;208;230" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0.82;0.45" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g opacity="0.35" stroke="url(#flowLineGradient)" stroke-width="1.4" stroke-linecap="round">
+    <path d="M120 64 C 318 16, 500 110, 696 58 S 996 56, 1088 108" stroke-dasharray="160 960">
+      <animate attributeName="stroke-dashoffset" values="0;-1120" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M146 256 C 328 290, 470 214, 606 248 S 892 284, 1052 238" stroke-dasharray="140 890">
+      <animate attributeName="stroke-dashoffset" values="0;1030" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <circle cx="92" cy="64" r="4" fill="#A855F7"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="238" cy="262" r="3" fill="#EC4899"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1004" cy="258" r="4" fill="#0EA5E9"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1114" cy="92" r="3" fill="#818CF8"><animate attributeName="opacity" values="0.15;0.85;0.15" dur="4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="575" cy="54" r="3" fill="#EC4899"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g>
+    <text x="600" y="106" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="1.2" fill="url(#nameGradient)" filter="url(#textShadow)">Katarzyna Stańczyk</text>
+    <text x="600" y="160" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="1" fill="#4F46E5" filter="url(#softGlow)">.NET Developer
+      <animate attributeName="opacity" values="0.88;1;0.88" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <g opacity="0.72" stroke="#A78BFA" stroke-width="1.5" stroke-linecap="round">
+    <path d="M156 172l12 -12M168 172l-12 -12"><animate attributeName="opacity" values="0.18;0.9;0.18" dur="4.6s" repeatCount="indefinite"/></path>
+    <path d="M1040 182l12 -12M1052 182l-12 -12"><animate attributeName="opacity" values="0.18;0.85;0.18" dur="3.8s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#F8FAFC" filter="url(#badgeGlow)">
+    <g transform="translate(108 198)">
+      <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -3;0 0" dur="6.2s" repeatCount="indefinite"/>
+      <rect x="0" y="0" width="322" height="64" rx="32" fill="#0A0F1D" fill-opacity="0.24" stroke="url(#badgeStroke)" stroke-width="2.2"/>
+      <g transform="translate(28 19)" stroke="#E9D5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <rect x="0" y="0" width="34" height="22" rx="3"/>
+        <path d="M-4 28h42"/>
+        
+      </g>
+      <text x="84" y="38" text-anchor="start" font-size="19.5" font-weight="800">Computer Science</text>
+    </g>
+
+    <circle cx="458" cy="230" r="3.8" fill="#EC4899" filter="url(#softGlow)"><animate attributeName="r" values="2.8;5;2.8" dur="2.8s" repeatCount="indefinite"/></circle>
+
+    <g transform="translate(488 198)">
+      <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 3;0 0" dur="7s" repeatCount="indefinite"/>
+      <rect x="0" y="0" width="220" height="64" rx="32" fill="#0A0F1D" fill-opacity="0.24" stroke="url(#badgeStroke)" stroke-width="2.2"/>
+      <g transform="translate(28 15)" stroke="#F5D0FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M16 0c8.2 0 14 5.9 14 13.9 0 10.6-14 24.1-14 24.1S2 24.5 2 13.9C2 5.9 7.8 0 16 0Z"/>
+        <circle cx="16" cy="13.5" r="4"/>
+      </g>
+      <text x="84" y="38" text-anchor="start" font-size="19.5" font-weight="800">Poland</text>
+    </g>
+
+    <circle cx="730" cy="230" r="3.8" fill="#EC4899" filter="url(#softGlow)"><animate attributeName="r" values="2.8;5;2.8" dur="3.1s" repeatCount="indefinite"/></circle>
+
+    <g transform="translate(760 198)">
+      <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -3;0 0" dur="6.8s" repeatCount="indefinite"/>
+      <rect x="0" y="0" width="334" height="64" rx="32" fill="#0A0F1D" fill-opacity="0.24" stroke="url(#badgeStroke)" stroke-width="2.2"/>
+      <g transform="translate(26 17)" stroke="#E9D5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M0 10 22 0l22 10-22 10L0 10Z"/>
+        <path d="M9 16v8c0 2.8 6 5 13 5s13-2.2 13-5v-8"/>
+        <path d="M44 10v11"/>
+        <circle cx="44" cy="22.5" r="1.6" fill="#E9D5FF" stroke="none"/>
+      </g>
+      <text x="80" y="38" text-anchor="start" font-size="18.6" font-weight="800">University of Łódź</text>
+    </g>
+  </g>
+</svg>
