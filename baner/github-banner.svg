@@ -1,0 +1,130 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Katarzyna Stańczyk GitHub banner</title>
+  <desc id="desc">Animated transparent GitHub profile banner in neon blue, violet and pink style.</desc>
+
+  <defs>
+    <linearGradient id="nameGradient" x1="120" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#151B64">
+        <animate attributeName="stop-color" values="#151B64;#312EAD;#8B5CF6;#151B64" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="48%" stop-color="#4338CA">
+        <animate attributeName="stop-color" values="#4338CA;#A855F7;#0EA5E9;#4338CA" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0EA5E9">
+        <animate attributeName="stop-color" values="#0EA5E9;#EC4899;#6366F1;#0EA5E9" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="lineGradient" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0" />
+      <stop offset="0.16" stop-color="#A855F7" stop-opacity="0.95" />
+      <stop offset="0.48" stop-color="#EC4899" stop-opacity="0.9" />
+      <stop offset="0.76" stop-color="#0EA5E9" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="violetGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.38" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="pinkGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="textShadow" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#312EAD" flood-opacity="0.55" />
+    </filter>
+  </defs>
+
+  <!-- Transparent background: intentionally no solid rectangle -->
+
+  <g opacity="0.9">
+    <circle cx="180" cy="82" r="132" fill="url(#violetGlow)">
+      <animate attributeName="cx" values="180;230;180" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="r" values="118;150;118" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1000" cy="88" r="145" fill="url(#cyanGlow)">
+      <animate attributeName="cx" values="1000;940;1000" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="r" values="128;165;128" dur="12s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="610" cy="232" r="128" fill="url(#pinkGlow)">
+      <animate attributeName="cy" values="232;210;232" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="9s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g opacity="0.35" stroke="url(#lineGradient)" stroke-width="1.4">
+    <path d="M126 72 C 325 18, 497 112, 700 58 S 1000 52, 1092 110" stroke-dasharray="160 950" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" values="0;-1110" dur="8s" repeatCount="indefinite" />
+    </path>
+    <path d="M145 215 C 310 252, 440 185, 610 222 S 910 252, 1046 205" stroke-dasharray="140 870" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" values="0;1010" dur="9s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <circle cx="94" cy="64" r="4" fill="#A855F7">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="3.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="248" cy="224" r="3" fill="#EC4899">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1006" cy="220" r="4" fill="#0EA5E9">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1115" cy="90" r="3" fill="#818CF8">
+      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="4.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="575" cy="54" r="3" fill="#EC4899">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g transform="translate(0 0)">
+    <text x="600" y="102" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="1.5" fill="url(#nameGradient)" filter="url(#textShadow)">Katarzyna Stańczyk</text>
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="1.2" text-anchor="middle">
+      <text x="442" y="153" fill="#4F46E5">.NET Developer</text>
+      <circle cx="598" cy="146" r="3.5" fill="#EC4899" filter="url(#softGlow)">
+        <animate attributeName="r" values="2.6;4.5;2.6" dur="2.6s" repeatCount="indefinite" />
+      </circle>
+      <text x="795" y="153" fill="#475569">Computer Science Student</text>
+    </g>
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500" text-anchor="middle" fill="#475569" letter-spacing="0.5">
+      <text x="414" y="198">Business applications</text>
+      <circle cx="550" cy="192" r="3" fill="#EC4899" opacity="0.9" />
+      <text x="632" y="198">UI design</text>
+      <circle cx="710" cy="192" r="3" fill="#EC4899" opacity="0.9" />
+      <text x="834" y="198">Real-world solutions</text>
+    </g>
+  </g>
+
+  <line x1="245" y1="236" x2="955" y2="236" stroke="url(#lineGradient)" stroke-width="2" stroke-linecap="round" opacity="0.75" stroke-dasharray="120 560">
+    <animate attributeName="stroke-dashoffset" values="0;-680" dur="5s" repeatCount="indefinite" />
+  </line>
+
+  <g opacity="0.75" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round">
+    <path d="M153 160l12 -12M165 160l-12 -12">
+      <animate attributeName="opacity" values="0.25;0.95;0.25" dur="4.5s" repeatCount="indefinite" />
+    </path>
+    <path d="M1043 169l12 -12M1055 169l-12 -12">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.8s" repeatCount="indefinite" />
+    </path>
+  </g>
+</svg>
