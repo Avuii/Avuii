@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./baner/github-banner.svg" alt="Kasia Stańczyk banner" width="100%" />
+  <img src="./baner/katarzyna-github-banner-lines.svg" alt="Kasia Stańczyk banner" width="100%" />
 </p>
 
 <br>
