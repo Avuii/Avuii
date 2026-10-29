@@ -174,28 +174,23 @@
 <h2 align="center" style="font-size:28px; font-weight:bold;">Stats</h2>
 
 <p align="center">
-  <img 
-    alt="GitHub Stats" 
-    height="140" 
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=Avuii&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1&icon_color=A78BFA&rank_icon=github"
+  <img
+    alt="GitHub Stats"
+    height="150"
+    src="https://github-stats-extended.vercel.app/api?username=Avuii&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1&icon_color=A78BFA&rank_icon=github"
   />
-  <img 
-    alt="Top Languages" 
-    height="140" 
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Avuii&layout=compact&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1"
-  />
-  <img 
-    alt="GitHub Streak" 
-    height="140" 
-    src="https://streak-stats.demolab.com?user=Avuii&hide_border=true&background=0D1117&ring=E879F9&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=C4B5FD&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8"
+  <img
+    alt="Top Languages"
+    height="150"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=Avuii&layout=compact&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1"
   />
 </p>
 
 <p align="center">
-  <img 
-    alt="GitHub Activity Graph"
-    height="220"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Avuii&bg_color=0D1117&color=C4B5FD&line=E879F9&point=60A5FA&area=true&area_color=A78BFA&hide_border=true"
+  <img
+    alt="GitHub Streak"
+    height="150"
+    src="https://streak-stats.demolab.com?user=Avuii&hide_border=true&background=0D1117&ring=E879F9&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=C4B5FD&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8"
   />
 </p>
 <br>
