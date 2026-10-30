@@ -31,7 +31,6 @@ jobs:
         run: |
           python <<'PY'
           from pathlib import Path
-          from lxml import etree
           import re
 
           FONT = (
@@ -52,77 +51,56 @@ jobs:
               "#40c463": "#E879F9",
           }
 
-          SVG_NS = "http://www.w3.org/2000/svg"
+          svg_files = list(Path("dist").glob("*.svg"))
 
-          for path in Path("dist").glob("*.svg"):
-              parser = etree.XMLParser(
-                  remove_blank_text=False
+          if not svg_files:
+              raise RuntimeError("No SVG files found in dist/")
+
+          for path in svg_files:
+              content = path.read_text(encoding="utf-8")
+
+              # Replace GitHub colors with custom palette
+              for old, new in COLORS.items():
+                  content = re.sub(
+                      re.escape(old),
+                      lambda match, color=new: color,
+                      content,
+                      flags=re.IGNORECASE
+                  )
+
+              # Force GitHub-style sans-serif typography
+              # for month labels and all SVG text
+              font_style = (
+                  '<style type="text/css">'
+                  'text, tspan {'
+                  f'font-family: {FONT} !important;'
+                  '}'
+                  '</style>'
               )
 
-              tree = etree.parse(str(path), parser)
-              root = tree.getroot()
-
-              # Replace colors throughout SVG attributes and CSS
-              for element in root.iter():
-                  for attr, value in list(element.attrib.items()):
-                      for old, new in COLORS.items():
-                          value = re.sub(
-                              re.escape(old),
-                              new,
-                              value,
-                              flags=re.IGNORECASE
-                          )
-                      element.set(attr, value)
-
-                  if element.tag == f"{{{SVG_NS}}}style" and element.text:
-                      css = element.text
-                      for old, new in COLORS.items():
-                          css = re.sub(
-                              re.escape(old),
-                              new,
-                              css,
-                              flags=re.IGNORECASE
-                          )
-                      element.text = css
-
-              # Enforce sans-serif font for all text elements
-              for element in root.iter():
-                  if element.tag in (
-                      f"{{{SVG_NS}}}text",
-                      f"{{{SVG_NS}}}tspan"
-                  ):
-                      element.set("font-family", FONT)
-
-                      style = element.get("style", "")
-                      style = re.sub(
-                          r"font-family\s*:[^;]+;?",
-                          "",
-                          style
-                      )
-                      if style.strip():
-                          element.set("style", style)
-                      elif "style" in element.attrib:
-                          del element.attrib["style"]
-
-              # Override CSS font declarations, including
-              # inherited styles and text-specific rules
-              custom_style = etree.Element(
-                  f"{{{SVG_NS}}}style"
-              )
-              custom_style.text = (
-                  "text, tspan { "
-                  f"font-family: {FONT} !important; "
-                  "}"
-              )
-              root.insert(0, custom_style)
-
-              tree.write(
-                  str(path),
-                  encoding="utf-8",
-                  xml_declaration=True
+              # Append CSS at the end of the SVG
+              # to override previously defined styles
+              content, count = re.subn(
+                  r'</svg\s*>',
+                  lambda match: font_style + match.group(0),
+                  content,
+                  count=1,
+                  flags=re.IGNORECASE
               )
 
-              print(f"Customized: {path}")
+              if count != 1:
+                  raise RuntimeError(
+                      f"SVG closing tag not found: {path}"
+                  )
+
+              path.write_text(
+                  content,
+                  encoding="utf-8"
+              )
+
+              print(f"Customized SVG: {path}")
+
+          print("SVG customization complete.")
           PY
 
       - name: Publish SVG
