@@ -1,4 +1,3 @@
-
 name: Generate Pac-Man Contribution Graph
 
 on:
@@ -13,10 +12,8 @@ jobs:
   generate:
     permissions:
       contents: write
-
     runs-on: ubuntu-latest
     timeout-minutes: 20
-
     steps:
       - name: Generate Pac-Man SVG
         uses: abozanona/pacman-contribution-graph@v5.0.0
@@ -26,7 +23,7 @@ jobs:
           player_style: "opportunistic"
           hide_month_labels: "false"
 
-      - name: Apply custom GitHub theme
+      - name: Customize full grid, typography and legend
         shell: bash
         run: |
           python <<'PY'
@@ -34,194 +31,124 @@ jobs:
           from datetime import datetime, timezone, timedelta
           import re
           import xml.etree.ElementTree as ET
-
-          SVG_NS = "http://www.w3.org/2000/svg"
-          ET.register_namespace("", SVG_NS)
-
-          FONT = (
-              '-apple-system, BlinkMacSystemFont, '
-              '"Segoe UI", Helvetica, Arial, sans-serif'
-          )
-
-          COLORS = {
-              "#0d1117": "#0D1117",
-              "#161b22": "#1E1B2E",
-              "#0e4429": "#2A163F",
-              "#006d32": "#6D28D9",
-              "#26a641": "#A78BFA",
-              "#39d353": "#E879F9",
-              "#9be9a8": "#F0ABFC",
-              "#216e39": "#8B5CF6",
-              "#30a14e": "#C084FC",
-              "#40c463": "#E879F9",
+          
+          NS = 'http://www.w3.org/2000/svg'
+          ET.register_namespace('', NS)
+          Q = lambda tag: f'{{{NS}}}{tag}'
+          FONT = 'Segoe UI, Helvetica, Arial, sans-serif'
+          BG = '#0D1117'
+          EMPTY = '#1E1B2E'
+          PALETTE = ['#1E1B2E', '#2A163F', '#6D28D9', '#A78BFA', '#E879F9']
+          # These are the output shades produced by the generator before customization.
+          COLOR_MAP = {
+              '#161b22': EMPTY,
+              '#0e4429': '#2A163F',
+              '#006d32': '#6D28D9',
+              '#26a641': '#A78BFA',
+              '#39d353': '#E879F9',
+              '#9be9a8': '#F0ABFC',
+              '#216e39': '#8B5CF6',
+              '#30a14e': '#C084FC',
+              '#40c463': '#E879F9',
           }
-
-          PALETTE = [
-              "#1E1B2E",
-              "#2A163F",
-              "#6D28D9",
-              "#A78BFA",
-              "#E879F9",
-          ]
-
-          files = list(Path("dist").glob("*.svg"))
-
-          if not files:
-              raise RuntimeError("No SVG files found in dist/")
-
-          def svg_element(name, attrs=None):
-              return ET.Element(
-                  f"{{{SVG_NS}}}{name}",
-                  attrs or {}
-              )
-
-          for path in files:
-              content = path.read_text(encoding="utf-8")
-
-              # 1. Replace default GitHub contribution colors
-              for old, new in COLORS.items():
-                  content = re.sub(
-                      re.escape(old),
-                      lambda match, c=new: c,
-                      content,
-                      flags=re.IGNORECASE
-                  )
-
-              # 2. Parse SVG
-              root = ET.fromstring(content)
-
-              # 3. Apply GitHub sans-serif typography
-              style = svg_element("style")
-              style.text = (
-                  "text, tspan {"
-                  f"font-family: {FONT} !important;"
-                  "}"
-              )
-              root.append(style)
-
-              # 4. Apply font to text elements
-              for element in root.iter():
-                  if element.tag in (
-                      f"{{{SVG_NS}}}text",
-                      f"{{{SVG_NS}}}tspan"
-                  ):
-                      element.set("font-family", FONT)
-
-              # 5. Read SVG dimensions
-              viewbox = root.get("viewBox")
-
-              if viewbox:
-                  values = [
-                      float(v)
-                      for v in re.split(
-                          r"[\s,]+", viewbox.strip()
-                      )
-                  ]
-                  min_x, min_y, width, height = values
-              else:
-                  width = float(
-                      re.sub(
-                          r"[^0-9.]",
-                          "",
-                          root.get("width", "900")
-                      )
-                  )
-                  height = float(
-                      re.sub(
-                          r"[^0-9.]",
-                          "",
-                          root.get("height", "200")
-                      )
-                  )
-                  min_x, min_y = 0, 0
-
-              # 6. Add footer space for year and legend
-              footer_height = 35
-
-              root.set(
-                  "viewBox",
-                  f"{min_x} {min_y} "
-                  f"{width} {height + footer_height}"
-              )
-
-              root.set(
-                  "height",
-                  str(height + footer_height)
-              )
-
-              # 7. Calculate rolling 12-month year range
-              today = datetime.now(timezone.utc).date()
-              previous = today - timedelta(days=364)
-
-              years = (
-                  str(today.year)
-                  if previous.year == today.year
-                  else f"{previous.year}–{today.year}"
-              )
-
-              footer_y = min_y + height + 23
-
-              # 8. Year label
-              year_text = svg_element("text", {
-                  "x": str(min_x + 8),
-                  "y": str(footer_y),
-                  "fill": "#C4B5FD",
-                  "font-size": "12",
-                  "font-family": FONT
+          
+          for path in Path('dist').glob('*.svg'):
+              root = ET.parse(path).getroot()
+              width = float(root.get('width', '1166'))
+              height = float(root.get('height', '184'))
+          
+              # The generator has 371 cells with IDs c-week-day.
+              cells = [el for el in root.iter(Q('rect'))
+                       if re.fullmatch(r'c-\d+-[0-6]', el.get('id', ''))]
+              if len(cells) != 371:
+                  raise RuntimeError(f'Expected 371 contribution cells, got {len(cells)} in {path}')
+          
+              # Color only grid cells. The background stays dark.
+              # Crucially, modify animation values as well, so the board remains visible
+              # when Pac-Man eats a contribution.
+              for cell in cells:
+                  fill = cell.get('fill', BG)
+                  cell.set('fill', EMPTY if fill.lower() == BG.lower()
+                           else COLOR_MAP.get(fill.lower(), fill))
+                  for animate in cell.findall(Q('animate')):
+                      if animate.get('attributeName') == 'fill':
+                          values = animate.get('values', '')
+                          values = re.sub(r'#[0-9A-Fa-f]{6}',
+                              lambda m: EMPTY if m.group(0).lower() == BG.lower()
+                              else COLOR_MAP.get(m.group(0).lower(), m.group(0)),
+                              values)
+                          animate.set('values', values)
+          
+              # The input SVG already has customized purple shades in its animations;
+              # they are preserved. Apply the font explicitly to text nodes.
+              for item in root.iter():
+                  if item.tag in (Q('text'), Q('tspan')):
+                      item.set('font-family', FONT)
+                      item.set('font-size', item.get('font-size', '11'))
+                      item.set('fill', '#CBD5E1')
+          
+              # Give extra space to weekday labels and a footer while retaining all
+              # existing Pac-Man coordinates and animations within a shifted group.
+              left, top, bottom = 48, 22, 40
+              root.set('width', str(int(width + left)))
+              root.set('height', str(int(height + top + bottom)))
+              root.set('viewBox', f'0 0 {int(width + left)} {int(height + top + bottom)}')
+          
+              original_children = list(root)
+              for child in original_children:
+                  root.remove(child)
+          
+              backdrop = ET.SubElement(root, Q('rect'), {
+                  'width': '100%', 'height': '100%', 'fill': BG
               })
-              year_text.text = years
-              root.append(year_text)
-
-              # 9. Contribution legend
-              legend = svg_element("g")
-
-              legend_x = min_x + width - 155
-
-              less = svg_element("text", {
-                  "x": str(legend_x),
-                  "y": str(footer_y),
-                  "fill": "#94A3B8",
-                  "font-size": "11",
-                  "font-family": FONT
-              })
-              less.text = "Less"
-              legend.append(less)
-
-              for i, color in enumerate(PALETTE):
-                  rect = svg_element("rect", {
-                      "x": str(legend_x + 29 + i * 15),
-                      "y": str(footer_y - 10),
-                      "width": "11",
-                      "height": "11",
-                      "rx": "2",
-                      "fill": color
+              # Keep defs and metadata at root; all visible/animated artwork is grouped.
+              layer = ET.Element(Q('g'), {'transform': f'translate({left},{top})'})
+              for child in original_children:
+                  if child.tag in (Q('defs'), Q('metadata'), Q('desc')):
+                      root.append(child)
+                  elif child.tag == Q('rect') and child.get('width') == '100%':
+                      continue  # replace old backdrop
+                  else:
+                      layer.append(child)
+              root.append(layer)
+          
+              for label, index in [('Mon', 1), ('Wed', 3), ('Fri', 5)]:
+                  text = ET.SubElement(root, Q('text'), {
+                      'x': '7', 'y': str(top + 15 + 22 * index + 14),
+                      'font-family': FONT, 'font-size': '12', 'fill': '#CBD5E1'
                   })
-                  legend.append(rect)
-
-              more = svg_element("text", {
-                  "x": str(legend_x + 108),
-                  "y": str(footer_y),
-                  "fill": "#94A3B8",
-                  "font-size": "11",
-                  "font-family": FONT
+                  text.text = label
+          
+              now = datetime.now(timezone.utc).date()
+              prior = now - timedelta(days=364)
+              years = str(now.year) if now.year == prior.year else f'{prior.year}–{now.year}'
+              footer_y = top + height + 22
+              year = ET.SubElement(root, Q('text'), {
+                  'x': str(left), 'y': str(int(footer_y)), 'font-family': FONT,
+                  'font-size': '12', 'fill': '#C4B5FD'
               })
-              more.text = "More"
-              legend.append(more)
-
-              root.append(legend)
-
-              # 10. Save customized SVG
-              tree = ET.ElementTree(root)
-
-              tree.write(
-                  path,
-                  encoding="utf-8",
-                  xml_declaration=True
-              )
-
-              print(f"Customized: {path}")
-
-          print("All SVG files customized successfully.")
+              year.text = years
+          
+              legend_x = left + width - 177
+              less = ET.SubElement(root, Q('text'), {
+                  'x': str(int(legend_x)), 'y': str(int(footer_y)),
+                  'font-family': FONT, 'font-size': '12', 'fill': '#94A3B8'
+              })
+              less.text = 'Less'
+              for i, color in enumerate(PALETTE):
+                  ET.SubElement(root, Q('rect'), {
+                      'x': str(int(legend_x + 35 + i * 15)),
+                      'y': str(int(footer_y - 11)),
+                      'width': '12', 'height': '12', 'rx': '2', 'fill': color
+                  })
+              more = ET.SubElement(root, Q('text'), {
+                  'x': str(int(legend_x + 120)), 'y': str(int(footer_y)),
+                  'font-family': FONT, 'font-size': '12', 'fill': '#94A3B8'
+              })
+              more.text = 'More'
+          
+              ET.ElementTree(root).write(path, encoding='utf-8', xml_declaration=True)
+              print(f'Customized {path} with {len(cells)} visible cells')
           PY
 
       - name: Publish SVG
