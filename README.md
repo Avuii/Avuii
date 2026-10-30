@@ -195,11 +195,8 @@
 </p>
 <br>
 
----
 
 <br>
-
-<h2 align="center">Contribution Arcade</h2>
 
 <p align="center">
   <picture>
