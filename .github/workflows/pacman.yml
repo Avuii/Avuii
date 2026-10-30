@@ -26,12 +26,17 @@ jobs:
           player_style: "opportunistic"
           hide_month_labels: "false"
 
-      - name: Apply custom colors and GitHub font
+      - name: Apply custom GitHub theme
         shell: bash
         run: |
           python <<'PY'
           from pathlib import Path
+          from datetime import datetime, timezone, timedelta
           import re
+          import xml.etree.ElementTree as ET
+
+          SVG_NS = "http://www.w3.org/2000/svg"
+          ET.register_namespace("", SVG_NS)
 
           FONT = (
               '-apple-system, BlinkMacSystemFont, '
@@ -39,8 +44,8 @@ jobs:
           )
 
           COLORS = {
-              "#161b22": "#0D1117",
               "#0d1117": "#0D1117",
+              "#161b22": "#1E1B2E",
               "#0e4429": "#2A163F",
               "#006d32": "#6D28D9",
               "#26a641": "#A78BFA",
@@ -51,56 +56,172 @@ jobs:
               "#40c463": "#E879F9",
           }
 
-          svg_files = list(Path("dist").glob("*.svg"))
+          PALETTE = [
+              "#1E1B2E",
+              "#2A163F",
+              "#6D28D9",
+              "#A78BFA",
+              "#E879F9",
+          ]
 
-          if not svg_files:
+          files = list(Path("dist").glob("*.svg"))
+
+          if not files:
               raise RuntimeError("No SVG files found in dist/")
 
-          for path in svg_files:
+          def svg_element(name, attrs=None):
+              return ET.Element(
+                  f"{{{SVG_NS}}}{name}",
+                  attrs or {}
+              )
+
+          for path in files:
               content = path.read_text(encoding="utf-8")
 
-              # Replace GitHub colors with custom palette
+              # 1. Replace default GitHub contribution colors
               for old, new in COLORS.items():
                   content = re.sub(
                       re.escape(old),
-                      lambda match, color=new: color,
+                      lambda match, c=new: c,
                       content,
                       flags=re.IGNORECASE
                   )
 
-              # Force GitHub-style sans-serif typography
-              # for month labels and all SVG text
-              font_style = (
-                  '<style type="text/css">'
-                  'text, tspan {'
-                  f'font-family: {FONT} !important;'
-                  '}'
-                  '</style>'
-              )
+              # 2. Parse SVG
+              root = ET.fromstring(content)
 
-              # Append CSS at the end of the SVG
-              # to override previously defined styles
-              content, count = re.subn(
-                  r'</svg\s*>',
-                  lambda match: font_style + match.group(0),
-                  content,
-                  count=1,
-                  flags=re.IGNORECASE
+              # 3. Apply GitHub sans-serif typography
+              style = svg_element("style")
+              style.text = (
+                  "text, tspan {"
+                  f"font-family: {FONT} !important;"
+                  "}"
               )
+              root.append(style)
 
-              if count != 1:
-                  raise RuntimeError(
-                      f"SVG closing tag not found: {path}"
+              # 4. Apply font to text elements
+              for element in root.iter():
+                  if element.tag in (
+                      f"{{{SVG_NS}}}text",
+                      f"{{{SVG_NS}}}tspan"
+                  ):
+                      element.set("font-family", FONT)
+
+              # 5. Read SVG dimensions
+              viewbox = root.get("viewBox")
+
+              if viewbox:
+                  values = [
+                      float(v)
+                      for v in re.split(
+                          r"[\s,]+", viewbox.strip()
+                      )
+                  ]
+                  min_x, min_y, width, height = values
+              else:
+                  width = float(
+                      re.sub(
+                          r"[^0-9.]",
+                          "",
+                          root.get("width", "900")
+                      )
                   )
+                  height = float(
+                      re.sub(
+                          r"[^0-9.]",
+                          "",
+                          root.get("height", "200")
+                      )
+                  )
+                  min_x, min_y = 0, 0
 
-              path.write_text(
-                  content,
-                  encoding="utf-8"
+              # 6. Add footer space for year and legend
+              footer_height = 35
+
+              root.set(
+                  "viewBox",
+                  f"{min_x} {min_y} "
+                  f"{width} {height + footer_height}"
               )
 
-              print(f"Customized SVG: {path}")
+              root.set(
+                  "height",
+                  str(height + footer_height)
+              )
 
-          print("SVG customization complete.")
+              # 7. Calculate rolling 12-month year range
+              today = datetime.now(timezone.utc).date()
+              previous = today - timedelta(days=364)
+
+              years = (
+                  str(today.year)
+                  if previous.year == today.year
+                  else f"{previous.year}–{today.year}"
+              )
+
+              footer_y = min_y + height + 23
+
+              # 8. Year label
+              year_text = svg_element("text", {
+                  "x": str(min_x + 8),
+                  "y": str(footer_y),
+                  "fill": "#C4B5FD",
+                  "font-size": "12",
+                  "font-family": FONT
+              })
+              year_text.text = years
+              root.append(year_text)
+
+              # 9. Contribution legend
+              legend = svg_element("g")
+
+              legend_x = min_x + width - 155
+
+              less = svg_element("text", {
+                  "x": str(legend_x),
+                  "y": str(footer_y),
+                  "fill": "#94A3B8",
+                  "font-size": "11",
+                  "font-family": FONT
+              })
+              less.text = "Less"
+              legend.append(less)
+
+              for i, color in enumerate(PALETTE):
+                  rect = svg_element("rect", {
+                      "x": str(legend_x + 29 + i * 15),
+                      "y": str(footer_y - 10),
+                      "width": "11",
+                      "height": "11",
+                      "rx": "2",
+                      "fill": color
+                  })
+                  legend.append(rect)
+
+              more = svg_element("text", {
+                  "x": str(legend_x + 108),
+                  "y": str(footer_y),
+                  "fill": "#94A3B8",
+                  "font-size": "11",
+                  "font-family": FONT
+              })
+              more.text = "More"
+              legend.append(more)
+
+              root.append(legend)
+
+              # 10. Save customized SVG
+              tree = ET.ElementTree(root)
+
+              tree.write(
+                  path,
+                  encoding="utf-8",
+                  xml_declaration=True
+              )
+
+              print(f"Customized: {path}")
+
+          print("All SVG files customized successfully.")
           PY
 
       - name: Publish SVG
