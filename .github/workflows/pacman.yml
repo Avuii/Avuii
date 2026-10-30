@@ -1,9 +1,8 @@
-
 name: Generate Pac-Man Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 1 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -18,11 +17,64 @@ jobs:
 
     steps:
       - name: Generate Pac-Man SVG
-        uses: abozanona/pacman-contribution-graph@v5.0.0
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: Avuii
           games: "pacman"
-          hide_month_labels: "false"
+          player_style: "opportunistic"
+          hide_month_labels: "true"
+
+      - name: Recolor SVG and change font
+        run: |
+          python <<'PY'
+          from pathlib import Path
+
+          svg_files = Path("dist").glob("*.svg")
+
+          replacements = {
+              # background / dark neutrals
+              "#161b22": "#0D1117",
+              "#0d1117": "#0D1117",
+
+              # default GitHub green scale -> your palette
+              "#0e4429": "#2A163F",
+              "#006d32": "#6D28D9",
+              "#26a641": "#A78BFA",
+              "#39d353": "#E879F9",
+
+              # some variants that may appear
+              "#9be9a8": "#F0ABFC",
+              "#216e39": "#8B5CF6",
+              "#30a14e": "#C084FC",
+              "#40c463": "#E879F9",
+          }
+
+          for path in svg_files:
+              content = path.read_text(encoding="utf-8")
+
+              for old, new in replacements.items():
+                  content = content.replace(old, new)
+
+              # If font-family exists, replace it
+              content = content.replace(
+                  'font-family="serif"',
+                  'font-family="Inter, Segoe UI, Arial, sans-serif"'
+              )
+              content = content.replace(
+                  "font-family:serif",
+                  "font-family:Inter, Segoe UI, Arial, sans-serif"
+              )
+
+              # If there is no explicit font-family on text, inject a global style
+              if "font-family" not in content:
+                  content = content.replace(
+                      "<svg",
+                      '<svg style="font-family:Inter, Segoe UI, Arial, sans-serif;"',
+                      1
+                  )
+
+              path.write_text(content, encoding="utf-8")
+          PY
 
       - name: Publish SVG
         uses: crazy-max/ghaction-github-pages@v3.1.0
