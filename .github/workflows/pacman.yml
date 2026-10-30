@@ -1,3 +1,4 @@
+
 name: Generate Pac-Man Contribution Graph
 
 on:
@@ -12,68 +13,116 @@ jobs:
   generate:
     permissions:
       contents: write
+
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
     steps:
       - name: Generate Pac-Man SVG
-        uses: abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@v5.0.0
         with:
           github_user_name: Avuii
           games: "pacman"
           player_style: "opportunistic"
-          hide_month_labels: "true"
+          hide_month_labels: "false"
 
-      - name: Recolor SVG and change font
+      - name: Apply custom colors and GitHub font
+        shell: bash
         run: |
           python <<'PY'
           from pathlib import Path
+          from lxml import etree
+          import re
 
-          svg_files = Path("dist").glob("*.svg")
+          FONT = (
+              '-apple-system, BlinkMacSystemFont, '
+              '"Segoe UI", Helvetica, Arial, sans-serif'
+          )
 
-          replacements = {
-              # background / dark neutrals
+          COLORS = {
               "#161b22": "#0D1117",
               "#0d1117": "#0D1117",
-
-              # default GitHub green scale -> your palette
               "#0e4429": "#2A163F",
               "#006d32": "#6D28D9",
               "#26a641": "#A78BFA",
               "#39d353": "#E879F9",
-
-              # some variants that may appear
               "#9be9a8": "#F0ABFC",
               "#216e39": "#8B5CF6",
               "#30a14e": "#C084FC",
               "#40c463": "#E879F9",
           }
 
-          for path in svg_files:
-              content = path.read_text(encoding="utf-8")
+          SVG_NS = "http://www.w3.org/2000/svg"
 
-              for old, new in replacements.items():
-                  content = content.replace(old, new)
-
-              # If font-family exists, replace it
-              content = content.replace(
-                  'font-family="serif"',
-                  'font-family="Inter, Segoe UI, Arial, sans-serif"'
-              )
-              content = content.replace(
-                  "font-family:serif",
-                  "font-family:Inter, Segoe UI, Arial, sans-serif"
+          for path in Path("dist").glob("*.svg"):
+              parser = etree.XMLParser(
+                  remove_blank_text=False
               )
 
-              # If there is no explicit font-family on text, inject a global style
-              if "font-family" not in content:
-                  content = content.replace(
-                      "<svg",
-                      '<svg style="font-family:Inter, Segoe UI, Arial, sans-serif;"',
-                      1
-                  )
+              tree = etree.parse(str(path), parser)
+              root = tree.getroot()
 
-              path.write_text(content, encoding="utf-8")
+              # Replace colors throughout SVG attributes and CSS
+              for element in root.iter():
+                  for attr, value in list(element.attrib.items()):
+                      for old, new in COLORS.items():
+                          value = re.sub(
+                              re.escape(old),
+                              new,
+                              value,
+                              flags=re.IGNORECASE
+                          )
+                      element.set(attr, value)
+
+                  if element.tag == f"{{{SVG_NS}}}style" and element.text:
+                      css = element.text
+                      for old, new in COLORS.items():
+                          css = re.sub(
+                              re.escape(old),
+                              new,
+                              css,
+                              flags=re.IGNORECASE
+                          )
+                      element.text = css
+
+              # Enforce sans-serif font for all text elements
+              for element in root.iter():
+                  if element.tag in (
+                      f"{{{SVG_NS}}}text",
+                      f"{{{SVG_NS}}}tspan"
+                  ):
+                      element.set("font-family", FONT)
+
+                      style = element.get("style", "")
+                      style = re.sub(
+                          r"font-family\s*:[^;]+;?",
+                          "",
+                          style
+                      )
+                      if style.strip():
+                          element.set("style", style)
+                      elif "style" in element.attrib:
+                          del element.attrib["style"]
+
+              # Override CSS font declarations, including
+              # inherited styles and text-specific rules
+              custom_style = etree.Element(
+                  f"{{{SVG_NS}}}style"
+              )
+              custom_style.text = (
+                  "text, tspan { "
+                  f"font-family: {FONT} !important; "
+                  "}"
+              )
+              root.insert(0, custom_style)
+
+              tree.write(
+                  str(path),
+                  encoding="utf-8",
+                  xml_declaration=True
+              )
+
+              print(f"Customized: {path}")
           PY
 
       - name: Publish SVG
