@@ -2,8 +2,6 @@
   <img src="./baner/baner.svg" alt="Katarzyna Stańczyk banner" width="100%" />
 </p>
 
-<br>
-
 <p align="center">
   <img
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1500&color=A78BFA&center=true&vCenter=true&width=900&lines=Welcome+to+my+GitHub+space;Coffee-powered+developer+building+useful+things;C%23+%E2%80%A2+.NET+%E2%80%A2+SQL+%E2%80%A2+UI+Design;Creating+clean+and+practical+software+solutions"
@@ -205,7 +203,7 @@
 </p>
 
 
-<br><br><br><br>
+<br><br>
 
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">
@@ -263,7 +261,112 @@
 
 
 <br>
-<br><br>
+
+
+
+<h2 align="center">Professional Experience</h2>
+
+<h3 align="center">De Heus | .NET Developer Intern</h3>
+
+<p align="center">
+  <strong>Enterprise Software</strong> ·
+  <strong>Full-Stack Development</strong> ·
+  <strong>ERP Integration</strong>
+</p>
+
+<p align="center">
+  Contributed to the development, maintenance, and
+  enhancement of commercial business applications,
+  working across frontend, backend, relational databases,
+  and enterprise systems.
+</p>
+
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <strong>Full-Stack Development</strong>
+      <br>
+      <sub>Business applications & internal tools</sub>
+    </td>
+    <td align="center" width="33%">
+      <strong>ERP & Databases</strong>
+      <br>
+      <sub>Comarch ERP XL & data integration</sub>
+    </td>
+    <td align="center" width="33%">
+      <strong>Software Maintenance</strong>
+      <br>
+      <sub>Existing systems & feature improvements</sub>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<h3>Selected Projects & Contributions</h3>
+
+<table>
+  <tr>
+    <td width="30%">
+      <strong>XL Session Manager</strong>
+      <br>
+      <sub>C# · WPF · ERP XL</sub>
+    </td>
+    <td>
+      Developed a desktop application for managing
+      sessions in the Comarch ERP XL environment.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Config Attributes Panel</strong>
+      <br>
+      <sub>Angular · TypeScript</sub>
+    </td>
+    <td>
+      Developed and enhanced an interface for
+      configuring and managing business attributes.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Commission</strong>
+      <br>
+      <sub>Angular · .NET</sub>
+    </td>
+    <td>
+      Maintained and improved an existing
+      full-stack business application.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>SASS</strong>
+      <br>
+      <sub>Blazor · MudBlazor</sub>
+    </td>
+    <td>
+      Contributed to the development and
+      improvement of an internal business application.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>KNT Attributes</strong>
+      <br>
+      <sub>C# · Comarch ERP XL</sub>
+    </td>
+    <td>
+      Developed functionality supporting contractor
+      attributes and ERP integration.
+    </td>
+  </tr>
+</table>
+
+<br>
+
 <br>
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">Stats</h2>
