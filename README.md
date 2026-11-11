@@ -32,11 +32,12 @@
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">About Me</h2>
 
-<img 
-  align="left" 
-  alt="Developer workspace animation" 
-  src="./images/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" 
-  width="260" 
+
+<img
+  align="left"
+  alt="Pixel art developer workspace"
+  src="./images/aboutme.png"
+  width="300"
 />
 
 <p>
@@ -210,38 +211,60 @@
 
 <br><br><br><br>
 
-<h2 align="center" style="font-size:28px; font-weight:bold;">Current Focus</h2>
+
+<h2 align="center" style="font-size:28px; font-weight:bold;">
+  Current Focus
+</h2>
 
 <p align="center">
-  <strong>.NET Development</strong> · <strong>Business Applications</strong> · <strong>Databases</strong> · 
-  <strong>UI Design</strong> · <strong>Cybersecurity Basics</strong> · <strong>Qt / C++</strong>
+  <strong>Engineering Thesis</strong> ·
+  <strong>Full-Stack Development</strong> ·
+  <strong>Electronic Invoicing</strong> ·
+  <strong>API Integration</strong>
 </p>
 
 <br>
 
-<img 
-  align="right" 
-  alt="Coding animation" 
-  src="./images/242390692-0b335028-1d3d-4ee5-b5b3-a373d499be7e.gif" 
-  width="240" 
+<img
+  align="right"
+  alt="KSeF Manager pixel art illustration"
+  src="./images/currentFocusKSeF.png"
+  width="400"
 />
 
 <p>
-  I’m currently focused on building stronger foundations in <strong>.NET backend development</strong>, 
-  <strong>SQL databases</strong>, and <strong>real-world business application design</strong>.
+  I'm currently developing <strong>KSeF Manager</strong>,
+  a <strong>full-stack web application</strong> designed to
+  simplify electronic invoice management and support
+  integration with Poland's
+  <strong>National e-Invoicing System (KSeF)</strong>.
+  The project is part of my <strong>engineering thesis</strong>
+  at the University of Łódź.
 </p>
 
 <p>
-  At the same time, I’m exploring <strong>cybersecurity</strong>, especially topics connected with 
-  secure applications, API security, authentication, input validation, and understanding how systems can fail.
+  The application is designed to support
+  <strong>invoice creation and management</strong>,
+  communication with the <strong>KSeF API</strong>,
+  and secure access to business data.
+  My goal is to build a <strong>reliable, maintainable,
+  and user-friendly system</strong> that simplifies
+  everyday invoicing workflows.
 </p>
 
 <p>
-  I’m also developing my skills in <strong>C++ and Qt</strong>, creating desktop applications with clean interfaces, 
-  local databases, and practical user workflows.
+  My current work focuses on
+  <strong>ASP.NET Core backend development</strong>,
+  <strong>database integration</strong>,
+  <strong>authentication and authorization</strong>,
+  and <strong>API security and testing</strong>,
+  alongside ongoing frontend development.
 </p>
 
 <br clear="right"/>
+
+<br>
+
 
 <br>
 <br><br>
