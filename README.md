@@ -369,32 +369,40 @@
 
 <br>
 
-<h2 align="center" style="font-size:28px; font-weight:bold;">Stats</h2>
 
-<p align="center">
-  <img
-    alt="GitHub Stats"
-    height="150"
-    src="https://github-stats-extended.vercel.app/api?username=Avuii&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1&icon_color=A78BFA&rank_icon=github"
-  />
-  <img
-    alt="Top Languages"
-    height="150"
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=Avuii&layout=compact&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1"
-  />
-</p>
 
-<p align="center">
-  <img
-    alt="GitHub Streak"
-    height="150"
-    src="https://streak-stats.demolab.com?user=Avuii&hide_border=true&background=0D1117&ring=E879F9&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=C4B5FD&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8"
-  />
-</p>
-<br>
-
+<h2 align="center">GitHub Activity & Stats</h2>
 
 <br>
+
+<table align="center">
+  <tr>
+    <td align="center" width="35%">
+      <img
+        alt="GitHub Stats"
+        src="https://github-stats-extended.vercel.app/api?username=Avuii&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1&icon_color=A78BFA&rank_icon=github"
+        width="100%"
+      />
+    </td>
+    <td align="center" width="30%">
+      <img
+        alt="Top Languages"
+        src="https://github-stats-extended.vercel.app/api/top-langs/?username=Avuii&layout=compact&hide_border=true&bg_color=0D1117&title_color=E879F9&text_color=CBD5E1"
+        width="100%"
+      />
+    </td>
+    <td align="center" width="35%">
+      <img
+        alt="GitHub Streak"
+        src="https://streak-stats.demolab.com?user=Avuii&hide_border=true&background=0D1117&ring=E879F9&fire=A78BFA&currStreakLabel=C4B5FD&sideLabels=C4B5FD&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8"
+        width="100%"
+      />
+    </td>
+  </tr>
+</table>
+
+<br>
+
 
 <p align="center">
   <picture>
@@ -416,18 +424,43 @@
 
 <br>
 
+<br>
 
----
-<br><br><br>
+
+
+<h2 align="center">✦ Let's Connect ✦</h2>
+
 <p align="center">
-  <img 
-    src="https://komarev.com/ghpvc/?username=Avuii&label=Profile%20views&color=8B5CF6&style=flat" 
-    alt="Profile views"
+  <strong>Have an interesting project or an idea worth discussing?</strong>
+</p>
+
+<p align="center">
+  I'm always happy to connect, exchange ideas, and explore new opportunities.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
+    <img src="./icons/linkedin.svg" alt="LinkedIn" height="28">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:kstanczyk.contactme@gmail.com">
+    <img src="./icons/email.svg" alt="Email" height="28">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://avuii.github.io/PortfolioKS/">
+    <img src="./icons/portfolio.svg" alt="Portfolio" height="28">
+  </a>
+</p>
+
+<br>
+
+<p align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=Avuii&label=Profile+Views&color=A78BFA&style=flat-square"
+    alt="Profile Views"
   />
 </p>
-<br>
-<p align="center" style="font-size:16px; color:#ff69b4;">
-  <em>Thanks for visiting my profile — feel free to reach out or ⭐ one of my projects!</em>
+
+<p align="center">
+  <sub>Fueled by curiosity, creativity &amp; coffee ☕</sub>
 </p>
-
-
