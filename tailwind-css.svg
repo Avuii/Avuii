@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="44" viewBox="0 0 154 44" role="img" aria-label="Tailwind CSS">
+<title>Tailwind CSS</title>
+<defs>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#242B37"/><stop offset="0.47" stop-color="#171C26"/><stop offset="1" stop-color="#111722"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF1FF" stop-opacity=".33"/><stop offset=".48" stop-color="#78869A" stop-opacity=".17"/><stop offset="1" stop-color="#EAF1FF" stop-opacity=".33"/></linearGradient>
+ <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".09"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="1.2" y="1.2" width="151.60" height="41.6" rx="11" fill="#FFFFFF" fill-opacity=".055" />
+<rect x="1.8" y="1.8" width="150.40" height="40.4" rx="10.4" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.1"/>
+<path d="M12 3.4H142Q150.6 3.4 150.6 12V18H3.4V12Q3.4 3.4 12 3.4Z" fill="url(#sheen)"/>
+<path d="M600 960C440 960 340 880 300 720C360 800 430 830 510 810C531 805 551 794 571 779C583 770 601 753 624 729H625C652 702 673 682 689 669C716 648 745 631 776 620C813 607 854 600 900 600C1060 600 1160 680 1200 840C1140 760 1070 730 990 750C969 755 949 766 929 781C917 790 899 807 876 831C849 858 827 878 811 891C784 912 755 929 725 940C688 953 646 960 600 960ZM300 600C140 600 40 520 0 360C60 440 130 470 210 450C231 445 251 434 271 419C283 410 301 393 324 369H325C352 342 373 322 389 309C416 288 445 271 476 260C513 247 554 240 600 240C760 240 860 320 900 480C840 400 770 370 690 390C669 395 649 406 629 421C617 430 599 447 576 471C549 498 527 518 511 531C484 552 455 569 425 580C388 593 346 600 300 600Z" transform="matrix(0.0208333 0 0 -0.0208333 14.500000 34.500000)" fill="#38BDF8"/>
+<text x="50" y="27" font-family="Segoe UI,Inter,Arial,Helvetica,sans-serif" font-size="13.4" font-weight="600" letter-spacing=".05" fill="#F5F7FB">Tailwind CSS</text>
+</svg>

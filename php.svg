@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="44" viewBox="0 0 93 44" role="img" aria-label="PHP">
+<title>PHP</title>
+<defs>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#242B37"/><stop offset="0.47" stop-color="#171C26"/><stop offset="1" stop-color="#111722"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF1FF" stop-opacity=".33"/><stop offset=".48" stop-color="#78869A" stop-opacity=".17"/><stop offset="1" stop-color="#EAF1FF" stop-opacity=".33"/></linearGradient>
+ <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".09"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="1.2" y="1.2" width="90.60" height="41.6" rx="11" fill="#FFFFFF" fill-opacity=".055" />
+<rect x="1.8" y="1.8" width="89.40" height="40.4" rx="10.4" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.1"/>
+<path d="M12 3.4H81Q89.6 3.4 89.6 12V18H3.4V12Q3.4 3.4 12 3.4Z" fill="url(#sheen)"/>
+<path d="M350 690H351H303L278 557H319C347 557 368 562 382 573C395 584 404 601 409 625C414 649 412 666 403 676C394 685 377 690 350 690ZM600 916C519 916 441 908 366 891C295 875 231 852 176 823C121 794 78 760 47 723C16 684 0 643 0 600C0 557 16 516 47 477C78 440 121 406 176 377C231 348 295 325 366 309C441 292 519 284 600 284C681 284 759 292 834 309C905 325 969 348 1024 377C1079 406 1122 440 1153 477C1184 516 1200 557 1200 600C1200 643 1184 684 1153 723C1122 760 1079 794 1024 823C969 852 905 875 834 891C759 908 681 916 600 916ZM437 543C424 530 409 521 392 516C375 510 353 507 327 507H268L252 423H183L244 740H377C416 740 445 730 464 709C482 688 487 658 480 621C477 606 472 592 465 579C458 566 448 554 437 543ZM708 507H638L665 647C668 663 667 674 662 680C657 686 645 689 628 688H573L538 507H469L531 824H599L583 740H644C682 740 708 733 723 720C738 706 742 684 736 655L708 507ZM1018 621C1015 606 1010 592 1003 579C996 566 986 554 975 543C962 530 946 521 929 516C912 510 890 507 865 507H806L789 423H720L782 740H914C954 740 983 730 1002 709C1020 688 1025 658 1018 621ZM888 690H841L815 557H857C885 557 906 562 920 573C933 584 942 601 947 625C952 649 950 666 941 676C932 685 915 690 888 690Z" transform="matrix(0.0208333 0 0 -0.0208333 14.500000 34.500000)" fill="#8892BF"/>
+<text x="50" y="27" font-family="Segoe UI,Inter,Arial,Helvetica,sans-serif" font-size="13.4" font-weight="600" letter-spacing=".05" fill="#F5F7FB">PHP</text>
+</svg>
