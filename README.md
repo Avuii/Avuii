@@ -60,6 +60,9 @@
 <br>
  
 
+
+<!-- ==================== MY SKILLS ==================== -->
+
 <h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2>
 
 <h3 align="center">Programming Languages</h3>
@@ -107,12 +110,16 @@
   <img alt="npm" src="./skills/npm.svg" height="38" />
 </p>
 
-<h3 align="center">Databases, Data Science &amp; AI/ML</h3>
+<h3 align="center">Databases</h3>
 <p align="center">
   <img alt="SQL" src="./skills/sql.svg" height="38" />
   <img alt="SQL Server" src="./skills/sql-server.svg" height="38" />
   <img alt="PostgreSQL" src="./skills/postgresql.svg" height="38" />
   <img alt="Oracle SQL" src="./skills/oracle.svg" height="38" />
+</p>
+
+<h3 align="center">Data Science &amp; AI/ML</h3>
+<p align="center">
   <img alt="NumPy" src="./skills/numpy.svg" height="38" />
   <img alt="Pandas" src="./skills/pandas.svg" height="38" />
   <img alt="Matplotlib" src="./skills/matplotlib.svg" height="38" />
@@ -145,6 +152,13 @@
   <img alt="Docker" src="./skills/docker.svg" height="38" />
   <img alt="Docker Compose" src="./skills/docker-compose.svg" height="38" />
   <img alt="Jira" src="./skills/jira.svg" height="38" />
+</p>
+
+<h3 align="center">Enterprise Systems &amp; ERP</h3>
+<p align="center">
+  <img alt="Comarch ERP XL" src="./skills/comarch-erp-xl.svg" height="38" />
+  <img alt="ERP Extensions" src="./skills/erp-extensions.svg" height="38" />
+  <img alt="Comarch Hydra" src="./skills/comarch-hydra.svg" height="38" />
 </p>
 
 <h3 align="center">Scripting &amp; Automation</h3>
@@ -186,6 +200,7 @@
   <img alt="3ds Max" src="./skills/dsmax.svg" height="38" />
   <img alt="Aseprite" src="./skills/aseprite.svg" height="38" />
 </p>
+
 
 <br><br><br><br>
 
