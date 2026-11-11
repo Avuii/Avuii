@@ -40,28 +40,34 @@
 />
 
 <p>
-  I’m an <strong>Applied Computer Science student</strong> at the <strong>University of Łódź</strong>, specializing in <strong>Programming and Algorithms</strong>.
+  I’m a <strong>Computer Science student</strong> at the
+  <strong>University of Łódź</strong>, specializing in
+  <strong>Programming and Algorithms</strong>, currently completing
+  my engineering degree.
 </p>
 
 <p>
-  I’m growing as a <strong>.NET Developer</strong>, with a focus on <strong>business applications</strong>, <strong>databases</strong>, <strong>clean UI</strong>, and practical software solutions.
+  I have <strong>hands-on commercial development experience</strong>
+  from my <strong>.NET Developer internship at De Heus</strong>,
+  where I worked across the full stack, contributing to the
+  <strong>development, maintenance, and improvement of business applications</strong>,
+  including <strong>ERP-related solutions</strong>,
+  database integrations, and internal business tools.
 </p>
 
 <p>
-  I enjoy combining <strong>technical problem-solving</strong> with <strong>visual design</strong> — building applications that are not only working, but also clear, useful, and pleasant to use.
-</p>
-
-<p>
-  Currently, I work mostly with <strong>C#</strong>, <strong>.NET</strong>, <strong>SQL</strong>, <strong>Entity Framework Core</strong>, and frontend technologies such as <strong>Angular</strong> and <strong>React</strong>.
+  My main focus is <strong>.NET and backend development</strong>,
+  particularly <strong>API design, relational databases,
+  application architecture, and security</strong>.
+  I also enjoy combining technical problem-solving with
+  <strong>UI/UX design</strong> to build reliable, maintainable,
+  and user-friendly software.
 </p>
 
 <br clear="left"/>
 
 <br>
- 
 
-
-<!-- ==================== MY SKILLS ==================== -->
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2>
 
