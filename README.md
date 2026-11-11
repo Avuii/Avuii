@@ -438,19 +438,14 @@
   I'm always happy to connect, exchange ideas, and explore new opportunities.
 </p>
 
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
-    <img src="./icons/linkedin.svg" alt="LinkedIn" height="28">
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="mailto:kstanczyk.contactme@gmail.com">
-    <img src="./icons/email.svg" alt="Email" height="28">
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://avuii.github.io/PortfolioKS/">
-    <img src="./icons/portfolio.svg" alt="Portfolio" height="28">
-  </a>
+  <a href="https://www.linkedin.com/in/katarzyna-stanczykk/"><img src="./icons/linkedin.svg" alt="LinkedIn" width="48"></a>
+  <a href="mailto:kstanczyk.contactme@gmail.com"><img src="./icons/email.svg" alt="Email" width="48"></a>
+  <a href="https://avuii.github.io/PortfolioKS/"><img src="./icons/website.svg" alt="Portfolio" width="48"></a>
+  <a href="https://discord.com/users/691598855988314152"><img src="./icons/discord.svg" alt="Discord" width="48"></a>
 </p>
+
 
 <br>
 
