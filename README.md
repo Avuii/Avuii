@@ -33,7 +33,7 @@
   align="left"
   alt="Pixel art developer workspace"
   src="./images/aboutme.png"
-  width="300"
+  width="250"
 />
 
 <p>
