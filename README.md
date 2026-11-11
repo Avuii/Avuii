@@ -59,78 +59,108 @@
 
 <br>
  
-<h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2>
-
-<h3 align="center">Core</h3>
+<h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2><h3 align="center">Programming Languages</h3>
 <p align="center">
-  <img alt="C#" src="/skills/csharp.svg" height="34" />
-  <img alt=".NET" src="/skills/dotnet.svg" height="34" />
-  <img alt="Python" src="/skills/python.svg" height="34" />
-  <img alt="C++" src="/skills/cpp.svg" height="34" />
-  <img alt="Qt" src="/skills/qt.svg" height="34" />
+  <img alt="C#" src="./skills/csharp.svg" height="38" />
+  <img alt="C++" src="./skills/cpp.svg" height="38" />
+  <img alt="Python" src="./skills/python.svg" height="38" />
+  <img alt="TypeScript" src="./skills/typescript.svg" height="38" />
+  <img alt="JavaScript" src="./skills/javascript.svg" height="38" />
+  <img alt="PHP" src="./skills/php.svg" height="38" />
+  <img alt="Pascal" src="./skills/pascal.svg" height="38" />
+</p><h3 align="center">Backend &amp; Frameworks</h3>
+<p align="center">
+  <img alt=".NET" src="./skills/dotnet.svg" height="38" />
+  <img alt="ASP.NET Core" src="./skills/aspnet-core.svg" height="38" />
+  <img alt="EF Core" src="./skills/ef-core.svg" height="38" />
+  <img alt="LINQ" src="./skills/linq.svg" height="38" />
+  <img alt="REST API" src="./skills/rest-api.svg" height="38" />
+  <img alt="Blazor" src="./skills/blazor.svg" height="38" />
+  <img alt="Node.js" src="./skills/nodejs.svg" height="38" />
+  <img alt="WPF" src="./skills/wpf.svg" height="38" />
+  <img alt="Qt" src="./skills/qt.svg" height="38" />
+</p><h3 align="center">Authentication &amp; API Security</h3>
+<p align="center">
+  <img alt="ASP.NET Identity" src="./skills/aspnet-identity.svg" height="38" />
+  <img alt="Cookie Auth" src="./skills/cookie-auth.svg" height="38" />
+  <img alt="Authorization" src="./skills/authorization.svg" height="38" />
+  <img alt="CSRF / Antiforgery" src="./skills/csrf.svg" height="38" />
+  <img alt="Session Management" src="./skills/session-management.svg" height="38" />
+</p><h3 align="center">Frontend</h3>
+<p align="center">
+  <img alt="React" src="./skills/react.svg" height="38" />
+  <img alt="Angular" src="./skills/angular.svg" height="38" />
+  <img alt="HTML5" src="./skills/html5.svg" height="38" />
+  <img alt="CSS3" src="./skills/css3.svg" height="38" />
+  <img alt="Tailwind CSS" src="./skills/tailwind-css.svg" height="38" />
+  <img alt="Bootstrap" src="./skills/bootstrap.svg" height="38" />
+  <img alt="npm" src="./skills/npm.svg" height="38" />
+</p><h3 align="center">Databases &amp; Data Science</h3>
+<p align="center">
+  <img alt="SQL" src="./skills/sql.svg" height="38" />
+  <img alt="SQL Server" src="./skills/sql-server.svg" height="38" />
+  <img alt="PostgreSQL" src="./skills/postgresql.svg" height="38" />
+  <img alt="Oracle SQL" src="./skills/oracle.svg" height="38" />
+  <img alt="NumPy" src="./skills/numpy.svg" height="38" />
+  <img alt="Pandas" src="./skills/pandas.svg" height="38" />
+  <img alt="Matplotlib" src="./skills/matplotlib.svg" height="38" />
+  <img alt="PyTorch" src="./skills/pytorch.svg" height="38" />
+  <img alt="NetworkX" src="./skills/networkx.svg" height="38" />
+  <img alt="scikit-learn" src="./skills/scikit-learn.svg" height="38" />
+</p><h3 align="center">Testing &amp; API Tools</h3>
+<p align="center">
+  <img alt="Postman" src="./skills/postman.svg" height="38" />
+  <img alt="Swagger / OpenAPI" src="./skills/swagger.svg" height="38" />
+  <img alt="Unit Testing" src="./skills/unit-testing.svg" height="38" />
+  <img alt="Integration Testing" src="./skills/integration-testing.svg" height="38" />
+</p><h3 align="center">DevOps, Workflows &amp; CI/CD</h3>
+<p align="center">
+  <img alt="Git" src="./skills/git.svg" height="38" />
+  <img alt="GitHub" src="./skills/github.svg" height="38" />
+  <img alt="GitHub Actions" src="./skills/github-actions.svg" height="38" />
+  <img alt="Bitbucket" src="./skills/bitbucket.svg" height="38" />
+  <img alt="Forgejo" src="./skills/forgejo.svg" height="38" />
+  <img alt="Docker" src="./skills/docker.svg" height="38" />
+  <img alt="Docker Compose" src="./skills/docker-compose.svg" height="38" />
+  <img alt="Jira" src="./skills/jira.svg" height="38" />
+</p><h3 align="center">Scripting &amp; Automation</h3>
+<p align="center">
+  <img alt="PowerShell" src="./skills/powershell.svg" height="38" />
+  <img alt="Bash" src="./skills/bash.svg" height="38" />
+  <img alt="Batch" src="./skills/batch.svg" height="38" />
+  <img alt="Linux" src="./skills/linux.svg" height="38" />
+
+<h3 align="center">AI Tools & AI-Assisted Development</h3>
+
+<p align="center">
+  <img src="./skills/chatgpt.svg" alt="ChatGPT" height="38" />
+  <img src="./skills/claude.svg" alt="Claude" height="38" />
 </p>
 
-<h3 align="center">Backend</h3>
 <p align="center">
-  <img alt="ASP.NET Core" src="/skills/aspnet-core.svg" height="34" />
-  <img alt="EF Core" src="/skills/ef-core.svg" height="34" />
-  <img alt="REST API" src="/skills/rest-api.svg" height="34" />
-  <img alt="Swagger" src="/skills/swagger.svg" height="34" />
-  <img alt="Node.js" src="/skills/nodejs.svg" height="34" />
+  <img src="./skills/ai-debugging.svg" alt="AI-Assisted Debugging" height="38" />
+  <img src="./skills/code-review.svg" alt="Code Review" height="38" />
+  <img src="./skills/documentation.svg" alt="Documentation" height="38" />
+  <img src="./skills/research.svg" alt="Research" height="38" />
+  <img src="./skills/workflow-optimization.svg" alt="Workflow Optimization" height="38" />
 </p>
 
-<h3 align="center">Frontend</h3>
 <p align="center">
-  <img alt="Blazor" src="/skills/blazor.svg" height="34" />
-  <img alt="React" src="/skills/react.svg" height="34" />
-  <img alt="Angular" src="/skills/angular.svg" height="34" />
-  <img alt="Tailwind CSS" src="/skills/tailwind-css.svg" height="34" />
-  <img alt="Bootstrap" src="/skills/bootstrap.svg" height="34" />
-  <img alt="JavaScript" src="/skills/javascript.svg" height="34" />
-  <img alt="npm" src="/skills/npm.svg" height="34" />
-  <img alt="HTML5" src="/skills/html5.svg" height="34" />
-  <img alt="CSS3" src="/skills/css3.svg" height="34" />
-</p>
-
-<h3 align="center">Data</h3>
+  <img alt="Visual Studio" src="./skills/visual-studio.svg" height="38" />
+  <img alt="VS Code" src="./skills/vscode.svg" height="38" />
+  <img alt="Rider" src="./skills/rider.svg" height="38" />
+  <img alt="PyCharm" src="./skills/pycharm.svg" height="38" />
+  <img alt="CLion" src="./skills/clion.svg" height="38" />
+  <img alt="LaTeX" src="./skills/latex.svg" height="38" />
+</p><h3 align="center">Design, 3D &amp; Game Development</h3>
 <p align="center">
-  <img alt="SQL" src="/skills/sql.svg" height="34" />
-  <img alt="SQL Server" src="/skills/sql-server.svg" height="34" />
-  <img alt="PostgreSQL" src="/skills/postgresql.svg" height="34" />
-  <img alt="NumPy" src="/skills/numpy.svg" height="34" />
-  <img alt="Pandas" src="/skills/pandas.svg" height="34" />
-  <img alt="Matplotlib" src="/skills/matplotlib.svg" height="34" />
-  <img alt="PyTorch" src="/skills/pytorch.svg" height="34" />
-</p>
-
-<h3 align="center">Dev Tools</h3>
-<p align="center">
-  <img alt="Git" src="/skills/git.svg" height="34" />
-  <img alt="GitHub" src="/skills/github.svg" height="34" />
-  <img alt="Bitbucket" src="/skills/bitbucket.svg" height="34" />
-  <img alt="Jira" src="/skills/jira.svg" height="34" />
-  <img alt="Docker" src="/skills/docker.svg" height="34" />
-  <img alt="Linux" src="/skills/linux.svg" height="34" />
-  <img alt="LaTeX" src="/skills/latex.svg" height="34" />
-</p>
-
-<h3 align="center">IDE</h3>
-<p align="center">
-  <img alt="Visual Studio" src="/skills/visual-studio.svg" height="34" />
-  <img alt="VS Code" src="/skills/vscode.svg" height="34" />
-  <img alt="Rider" src="/skills/rider.svg" height="34" />
-  <img alt="PyCharm" src="/skills/pycharm.svg" height="34" />
-  <img alt="CLion" src="/skills/clion.svg" height="34" />
-</p>
-
-<h3 align="center">Creative / 3D</h3>
-<p align="center">
-  <img alt="Figma" src="/skills/figma.svg" height="34" />
-  <img alt="Canva" src="/skills/canva.svg" height="34" />
-  <img alt="Three.js" src="/skills/threejs.svg" height="34" />
-  <img alt="AutoCAD" src="/skills/autocad.svg" height="34" />
-  <img alt="3ds Max" src="/skills/dsmax.svg" height="34" />
-  <img alt="Aseprite" src="/skills/aseprite.svg" height="34" />
+  <img alt="Figma" src="./skills/figma.svg" height="38" />
+  <img alt="Canva" src="./skills/canva.svg" height="38" />
+  <img alt="Three.js" src="./skills/threejs.svg" height="38" />
+  <img alt="Godot Engine" src="./skills/godot.svg" height="38" />
+  <img alt="AutoCAD" src="./skills/autocad.svg" height="38" />
+  <img alt="3ds Max" src="./skills/dsmax.svg" height="38" />
+  <img alt="Aseprite" src="./skills/aseprite.svg" height="38" />
 </p>
 <br><br><br><br>
 
