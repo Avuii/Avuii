@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="44" viewBox="0 0 148 44" role="img" aria-label="Unit Testing">
+<title>Unit Testing</title>
+<defs>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#242B37"/><stop offset="0.47" stop-color="#171C26"/><stop offset="1" stop-color="#111722"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF1FF" stop-opacity=".33"/><stop offset=".48" stop-color="#78869A" stop-opacity=".17"/><stop offset="1" stop-color="#EAF1FF" stop-opacity=".33"/></linearGradient>
+ <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".09"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="1.2" y="1.2" width="145.60" height="41.6" rx="11" fill="#FFFFFF" fill-opacity=".055" />
+<rect x="1.8" y="1.8" width="144.40" height="40.4" rx="10.4" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.1"/>
+<path d="M12 3.4H136Q144.6 3.4 144.6 12V18H3.4V12Q3.4 3.4 12 3.4Z" fill="url(#sheen)"/>
+<path d="M323 1200H131V1156H323V1200ZM574 1200H382V1156H574V1200ZM822 1200H630V1156H822V1200ZM1069 1200H876V1156H1069V1200ZM1078 1105H122C109 1105 98 1101 90 1092C81 1083 76 1072 76 1059C76 1046 81 1035 90 1026C99 1017 109 1012 122 1012H1078C1091 1012 1102 1017 1111 1026C1120 1035 1124 1046 1124 1059C1124 1072 1120 1083 1111 1092C1102 1101 1091 1105 1078 1105ZM323 963H131V0H323V963ZM574 963H382V173H574V963ZM822 963H630V435H822V963ZM1069 963H876V638H1069V963Z" transform="matrix(0.0208333 0 0 -0.0208333 14.500000 34.500000)" fill="#6DBE78"/>
+<text x="50" y="27" font-family="Segoe UI,Inter,Arial,Helvetica,sans-serif" font-size="13.4" font-weight="600" letter-spacing=".05" fill="#F5F7FB">Unit Testing</text>
+</svg>
