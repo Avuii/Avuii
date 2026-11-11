@@ -225,7 +225,7 @@
   align="right"
   alt="KSeF Manager pixel art illustration"
   src="./images/currentFocusKSeF.png"
-  width="400"
+  width="250"
 />
 
 <p>
