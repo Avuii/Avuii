@@ -11,20 +11,16 @@
   />
 </p>
 
+
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/katarzyna-stanczykk/">
-    <img alt="LinkedIn" src="./badges/linkedin-clean.svg" height="38" />
-  </a>
-  <a href="mailto:kstanczyk.contactme@gmail.com">
-    <img alt="Email" src="./badges/email-clean.svg" height="38" />
-  </a>
-  <a href="https://avuii.github.io/PortfolioKS/">
-    <img alt="Portfolio" src="./badges/portfolio-clean.svg" height="38" />
-  </a>
-  <a href="https://discord.com/users/691598855988314152">
-    <img alt="Discord" src="./badges/discord-clean.svg" height="38" />
-  </a>
+  <a href="https://www.linkedin.com/in/katarzyna-stanczykk/"><img src="./badges/linkedin-glass.svg" alt="LinkedIn" height="42"></a>
+  <a href="mailto:kstanczyk.contactme@gmail.com"><img src="./badges/email-glass.svg" alt="Email" height="42"></a>
+  <a href="https://avuii.github.io/PortfolioKS/"><img src="./badges/portfolio-glass.svg" alt="Portfolio" height="42"></a>
+  <a href="https://discord.com/users/691598855988314152"><img src="./badges/discord-glass.svg" alt="Discord" height="42"></a>
 </p>
+
+
 
 <br>
 
