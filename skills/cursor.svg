@@ -1,13 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="112" height="44" viewBox="0 0 112 44" role="img" aria-label="Cursor">
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="44" viewBox="0 0 103 44" role="img" aria-label="Cursor">
 <title>Cursor</title>
 <defs>
  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#242B37"/><stop offset="0.47" stop-color="#171C26"/><stop offset="1" stop-color="#111722"/></linearGradient>
  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF1FF" stop-opacity=".33"/><stop offset=".48" stop-color="#78869A" stop-opacity=".17"/><stop offset="1" stop-color="#EAF1FF" stop-opacity=".33"/></linearGradient>
  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".09"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
 </defs>
-<rect x="1.2" y="1.2" width="109.60" height="41.6" rx="11" fill="#FFFFFF" fill-opacity=".055" />
-<rect x="1.8" y="1.8" width="108.40" height="40.4" rx="10.4" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.1"/>
-<path d="M12 3.4H100Q108.6 3.4 108.6 12V18H3.4V12Q3.4 3.4 12 3.4Z" fill="url(#sheen)"/>
-<svg x="14" y="9" width="26" height="26" viewBox="0 0 24 24"><g fill="none" stroke="#F3F5F8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 20 13l-8 1-4 8Z"/><path d="M12 14 17 22"/></g></svg>
+<rect x="1.2" y="1.2" width="100.60" height="41.6" rx="11" fill="#FFFFFF" fill-opacity=".055"/>
+<rect x="1.8" y="1.8" width="99.40" height="40.4" rx="10.4" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.1"/>
+<path d="M12 3.4H91Q99.6 3.4 99.6 12V18H3.4V12Q3.4 3.4 12 3.4Z" fill="url(#sheen)"/>
+<g stroke="#E6E5E3" stroke-width=".45" stroke-linejoin="round">
+<path d="M27 8 40 15.3 40 29 27 36 14 29V15.3Z" fill="#747370"/>
+<path d="M27 8 40 15.3 27 22.5 14 15.3Z" fill="#595854"/>
+<path d="M14 15.3 27 22.5 27 36 14 29Z" fill="#797874"/>
+<path d="M40 15.3 27 22.5 27 36 40 29Z" fill="#53524F"/>
+<path d="M16.2 16.7 37.8 16.7 27 33.3 27 23.2Z" fill="#F1F0EE" stroke="none"/>
+<path d="M27 23.2 16.2 16.7 37.8 16.7Z" fill="#FFFFFF" stroke="none"/>
+</g>
 <text x="50" y="27" font-family="Segoe UI,Inter,Arial,Helvetica,sans-serif" font-size="13.4" font-weight="600" letter-spacing=".05" fill="#F5F7FB">Cursor</text>
 </svg>
