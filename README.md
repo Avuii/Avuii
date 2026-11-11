@@ -59,7 +59,10 @@
 
 <br>
  
-<h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2><h3 align="center">Programming Languages</h3>
+
+<h2 align="center" style="font-size:28px; font-weight:bold;">My Skills</h2>
+
+<h3 align="center">Programming Languages</h3>
 <p align="center">
   <img alt="C#" src="./skills/csharp.svg" height="38" />
   <img alt="C++" src="./skills/cpp.svg" height="38" />
@@ -68,7 +71,9 @@
   <img alt="JavaScript" src="./skills/javascript.svg" height="38" />
   <img alt="PHP" src="./skills/php.svg" height="38" />
   <img alt="Pascal" src="./skills/pascal.svg" height="38" />
-</p><h3 align="center">Backend &amp; Frameworks</h3>
+</p>
+
+<h3 align="center">Backend &amp; Frameworks</h3>
 <p align="center">
   <img alt=".NET" src="./skills/dotnet.svg" height="38" />
   <img alt="ASP.NET Core" src="./skills/aspnet-core.svg" height="38" />
@@ -77,16 +82,21 @@
   <img alt="REST API" src="./skills/rest-api.svg" height="38" />
   <img alt="Blazor" src="./skills/blazor.svg" height="38" />
   <img alt="Node.js" src="./skills/nodejs.svg" height="38" />
+  <img alt="FastAPI" src="./skills/fastapi.svg" height="38" />
   <img alt="WPF" src="./skills/wpf.svg" height="38" />
   <img alt="Qt" src="./skills/qt.svg" height="38" />
-</p><h3 align="center">Authentication &amp; API Security</h3>
+</p>
+
+<h3 align="center">Authentication &amp; API Security</h3>
 <p align="center">
   <img alt="ASP.NET Identity" src="./skills/aspnet-identity.svg" height="38" />
   <img alt="Cookie Auth" src="./skills/cookie-auth.svg" height="38" />
   <img alt="Authorization" src="./skills/authorization.svg" height="38" />
   <img alt="CSRF / Antiforgery" src="./skills/csrf.svg" height="38" />
   <img alt="Session Management" src="./skills/session-management.svg" height="38" />
-</p><h3 align="center">Frontend</h3>
+</p>
+
+<h3 align="center">Frontend</h3>
 <p align="center">
   <img alt="React" src="./skills/react.svg" height="38" />
   <img alt="Angular" src="./skills/angular.svg" height="38" />
@@ -95,7 +105,9 @@
   <img alt="Tailwind CSS" src="./skills/tailwind-css.svg" height="38" />
   <img alt="Bootstrap" src="./skills/bootstrap.svg" height="38" />
   <img alt="npm" src="./skills/npm.svg" height="38" />
-</p><h3 align="center">Databases &amp; Data Science</h3>
+</p>
+
+<h3 align="center">Databases, Data Science &amp; AI/ML</h3>
 <p align="center">
   <img alt="SQL" src="./skills/sql.svg" height="38" />
   <img alt="SQL Server" src="./skills/sql-server.svg" height="38" />
@@ -107,13 +119,23 @@
   <img alt="PyTorch" src="./skills/pytorch.svg" height="38" />
   <img alt="NetworkX" src="./skills/networkx.svg" height="38" />
   <img alt="scikit-learn" src="./skills/scikit-learn.svg" height="38" />
-</p><h3 align="center">Testing &amp; API Tools</h3>
+  <img alt="PaddleOCR" src="./skills/paddleocr.svg" height="38" />
+  <img alt="PaddlePaddle" src="./skills/paddlepaddle.svg" height="38" />
+  <img alt="Tesseract OCR" src="./skills/tesseract.svg" height="38" />
+  <img alt="PyMuPDF" src="./skills/pymupdf.svg" height="38" />
+  <img alt="Llama" src="./skills/llama.svg" height="38" />
+  <img alt="Ollama" src="./skills/ollama.svg" height="38" />
+</p>
+
+<h3 align="center">Testing &amp; API Tools</h3>
 <p align="center">
   <img alt="Postman" src="./skills/postman.svg" height="38" />
   <img alt="Swagger / OpenAPI" src="./skills/swagger.svg" height="38" />
   <img alt="Unit Testing" src="./skills/unit-testing.svg" height="38" />
   <img alt="Integration Testing" src="./skills/integration-testing.svg" height="38" />
-</p><h3 align="center">DevOps, Workflows &amp; CI/CD</h3>
+</p>
+
+<h3 align="center">DevOps, Workflows &amp; CI/CD</h3>
 <p align="center">
   <img alt="Git" src="./skills/git.svg" height="38" />
   <img alt="GitHub" src="./skills/github.svg" height="38" />
@@ -123,28 +145,28 @@
   <img alt="Docker" src="./skills/docker.svg" height="38" />
   <img alt="Docker Compose" src="./skills/docker-compose.svg" height="38" />
   <img alt="Jira" src="./skills/jira.svg" height="38" />
-</p><h3 align="center">Scripting &amp; Automation</h3>
+</p>
+
+<h3 align="center">Scripting &amp; Automation</h3>
 <p align="center">
   <img alt="PowerShell" src="./skills/powershell.svg" height="38" />
   <img alt="Bash" src="./skills/bash.svg" height="38" />
   <img alt="Batch" src="./skills/batch.svg" height="38" />
   <img alt="Linux" src="./skills/linux.svg" height="38" />
-
-<h3 align="center">AI Tools & AI-Assisted Development</h3>
-
-<p align="center">
-  <img src="./skills/chatgpt.svg" alt="ChatGPT" height="38" />
-  <img src="./skills/claude.svg" alt="Claude" height="38" />
 </p>
 
+<h3 align="center">AI Development Tools</h3>
 <p align="center">
-  <img src="./skills/ai-debugging.svg" alt="AI-Assisted Debugging" height="38" />
-  <img src="./skills/code-review.svg" alt="Code Review" height="38" />
-  <img src="./skills/documentation.svg" alt="Documentation" height="38" />
-  <img src="./skills/research.svg" alt="Research" height="38" />
-  <img src="./skills/workflow-optimization.svg" alt="Workflow Optimization" height="38" />
+  <img alt="ChatGPT" src="./skills/chatgpt.svg" height="38" />
+  <img alt="OpenAI Codex" src="./skills/codex.svg" height="38" />
+  <img alt="Claude" src="./skills/claude.svg" height="38" />
+  <img alt="Claude Code" src="./skills/claude-code.svg" height="38" />
+  <img alt="Gemini" src="./skills/gemini.svg" height="38" />
+  <img alt="GitHub Copilot" src="./skills/github-copilot.svg" height="38" />
+  <img alt="Cursor" src="./skills/cursor.svg" height="38" />
 </p>
 
+<h3 align="center">IDEs &amp; Development Tools</h3>
 <p align="center">
   <img alt="Visual Studio" src="./skills/visual-studio.svg" height="38" />
   <img alt="VS Code" src="./skills/vscode.svg" height="38" />
@@ -152,7 +174,9 @@
   <img alt="PyCharm" src="./skills/pycharm.svg" height="38" />
   <img alt="CLion" src="./skills/clion.svg" height="38" />
   <img alt="LaTeX" src="./skills/latex.svg" height="38" />
-</p><h3 align="center">Design, 3D &amp; Game Development</h3>
+</p>
+
+<h3 align="center">Design, 3D &amp; Game Development</h3>
 <p align="center">
   <img alt="Figma" src="./skills/figma.svg" height="38" />
   <img alt="Canva" src="./skills/canva.svg" height="38" />
@@ -162,6 +186,7 @@
   <img alt="3ds Max" src="./skills/dsmax.svg" height="38" />
   <img alt="Aseprite" src="./skills/aseprite.svg" height="38" />
 </p>
+
 <br><br><br><br>
 
 <h2 align="center" style="font-size:28px; font-weight:bold;">Current Focus</h2>
